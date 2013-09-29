@@ -1,7 +1,9 @@
 Bitly Exporter
 ==============
 
-This gem exports a user's links from the Bitly V3 API. This gem requires a generic OAuth access token that you can [obtain from Bitly](https://bitly.com/a/oauth_apps). This gem makes use of the [User Link History API](http://dev.bitly.com/user_info.html#v3_user_link_history).
+[![Code Climate](https://codeclimate.com/github/aortbals/bitly_exporter.png)](https://codeclimate.com/github/aortbals/bitly_exporter)
+
+This gem exports a user's links from the Bitly V3 API. It requires a generic OAuth access token that you can [obtain from Bitly](https://bitly.com/a/oauth_apps). It makes use of the [User Link History API](http://dev.bitly.com/user_info.html#v3_user_link_history).
 
 
 Installation
@@ -55,7 +57,7 @@ end
 
 #### Link Objects ####
 
-See [the API docs](http://dev.bitly.com/user_info.html#v3_user_link_history) for more information. A link object has the following methods:
+See the [API docs](http://dev.bitly.com/user_info.html#v3_user_link_history) for more information. A link object has the following methods:
 
 - link (short_link)
 - long_url
