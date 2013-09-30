@@ -46,14 +46,21 @@ results.each_with_index do |link, index|
 end
 ```
 
-`export` takes an optional `max` argument. This will import (in increments of 100) up to the maximum specified. This is a good way to see a sample response.
+`export` takes two optional arguments: `progress` & `max`. Set `progress` to `true` to see progress while exporting. Setting `max` will import (in increments of 100) up to the maximum specified. This is a good way to see a sample response.
+
+Show progress:
 
 ```ruby
-exporter.export(200) do |link|
+results = exporter.export(true)
+```
+
+With max:
+
+```ruby
+exporter.export(false, 200) do |link|
   # Create a record, store the link, etc
 end
 ```
-
 
 #### Link Objects ####
 

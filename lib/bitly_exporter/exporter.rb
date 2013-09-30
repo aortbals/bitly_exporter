@@ -8,9 +8,9 @@ module BitlyExporter
       @user = user
     end
 
-    def export(max=NO_MAX)
+    def export(progress=false, max=NO_MAX)
       results = []
-      offset = 0
+      offset  = 0
       begin
         links, result_count = user.link_history(limit: LIMIT, offset: offset)
         links.each do |link|
@@ -18,7 +18,9 @@ module BitlyExporter
           yield link if block_given?
         end
         offset = offset + LIMIT
+        print "#{offset} links retrieved...\r" if progress
       end while links.count > 0 && offset < max
+      print "Finished. #{results.count} links retrieved." if progress
       results
     end
   end
