@@ -18,6 +18,7 @@ module BitlyExporter
           yield link if block_given?
         end
         offset = offset + LIMIT
+        sleep(0.5) # Let's not bull rush the API
         print "#{offset} links retrieved...\r" if progress
       end while links.count > 0 && offset < max
       print "Finished. #{results.count} links retrieved." if progress
