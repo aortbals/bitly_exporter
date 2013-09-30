@@ -1,7 +1,9 @@
-require File.dirname(__FILE__) + '/../spec_helper'
+require_relative '../spec_helper'
+require_relative '../shared/oauth_context'
+
 
 describe BitlyExporter::Client do
-  let(:oauth_token) { "asdlkfjasd134i1ojfasldkrj234aslkdjfq3249" }
+  include_context "oauth"
   subject { BitlyExporter::Client.new(oauth_token) }
 
   it "assigns oauth_token" do
