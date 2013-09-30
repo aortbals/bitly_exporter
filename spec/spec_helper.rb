@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear! if ENV["COVERAGE"]
+
 require 'bitly_exporter'
 require 'vcr'
 
