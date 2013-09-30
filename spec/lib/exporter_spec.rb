@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
-require_relative '../shared/oauth_context'
-require_relative '../shared/link_history_response_context'
-require_relative '../matchers/a_link_with_matcher'
+require_relative '../support/contexts/oauth_context'
+require_relative '../support/contexts/link_history_response_context'
+require_relative '../support/matchers/a_link_with_matcher'
 
 describe BitlyExporter::Exporter do
   include_context 'oauth'

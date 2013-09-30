@@ -1,6 +1,6 @@
 require_relative '../spec_helper'
-require_relative '../shared/oauth_context'
-require_relative '../shared/link_history_response_context'
+require_relative '../support/contexts/oauth_context'
+require_relative '../support/contexts/link_history_response_context'
 
 describe BitlyExporter::User do
   include_context 'oauth'

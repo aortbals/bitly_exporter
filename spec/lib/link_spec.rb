@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative '../shared/link_history_response_context'
+require_relative '../support/contexts/link_history_response_context'
 
 describe BitlyExporter::Link do
   include_context 'link history response'

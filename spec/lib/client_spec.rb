@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative '../shared/oauth_context'
+require_relative '../support/contexts/oauth_context'
 
 
 describe BitlyExporter::Client do
