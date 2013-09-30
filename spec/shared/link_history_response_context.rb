@@ -33,4 +33,6 @@ shared_context "link history response" do
       }
     }
   }
+  let(:link_data)   { response["data"]["link_history"][0] }
+  let(:link_data_2) { response["data"]["link_history"][1] }
 end
