@@ -11,7 +11,7 @@ Installation
 
 Add this line to your applications Gemfile:
 
-    gem 'bitly_exporter', github: 'aortbals/bitly_exporter'
+    gem 'bitly_exporter'
 
 Or install it directly:
 
