@@ -1,0 +1,1289 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-ssl.bitly.com/v3/user/link_history?access_token=asdlkfjasd134i1ojfasldkrj234aslkdjfq3249&limit=100&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 30 Sep 2013 19:17:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '46610'
+      Etag:
+      - '"3b4c008aa1fa7be00061f233203d1ae9bed7f28b"'
+    body:
+      encoding: UTF-8
+      string: '{"status_code": 200, "data": {"link_history": [{"archived": false,
+        "user_ts": 1380567126, "title": "Example: Pegboard Nerds", "created_at":
+        1380567126, "modified_at": 1380567216, "private": true, "aggregate_link":
+        "http://bit.ly/x8GIHqx", "long_url": "https://example.com/pegboard-nerds?album_id=28520&short_url=http://bit.ly/x4YuCW5#play=28520&album=1",
+        "client_id": "", "link": "http://bit.ly/x8GIHqv"}, {"archived": false, "user_ts":
+        1380567126, "title": "Example: Pegboard Nerds", "created_at": 1380567126,
+        "modified_at": 1380567216, "private": true, "aggregate_link": "http://bit.ly/x4YuCW6",
+        "long_url": "https://Example.Comatose/pegboard-nerds?album_id=28520#play=28520&album=1",
+        "client_id": "", "link": "http://bit.ly/x4YuCW5"}, {"archived": false, "user_ts":
+        1380565141, "title": "Example: Gloria Gaynor", "created_at": 1380565141,
+        "modified_at": 1380565238, "private": true, "aggregate_link": "http://bit.ly/x8GBaYG",
+        "long_url": "http://example.com/gloria-gaynor?album_id=31710&track=1#play=31710&track=1",
+        "client_id": "", "link": "http://bit.ly/x8GBaYF"}, {"archived": false, "user_ts":
+        1380565141, "title": "Example: Gloria Gaynor", "created_at": 1380565141,
+        "modified_at": 1380565238, "private": true, "aggregate_link": "http://bit.ly/x4YpSQn",
+        "long_url": "http://example.com/gloria-gaynor?album_id=31710&track=1&short_url=http://bit.ly/x8GBaYF#play=31710&track=1",
+        "client_id": "", "link": "http://bit.ly/x4YpSQm"}, {"archived": false, "user_ts":
+        1380564547, "title": "Example: MS MR", "created_at": 1380564547, "modified_at":
+        1380564658, "private": true, "aggregate_link": "http://bit.ly/x4Ynxog", "long_url":
+        "http://example.com/s/2e70702", "client_id": "", "link": "http://bit.ly/x4Ynx83"},
+        {"archived": false, "user_ts": 1380564359, "title": "Example: Find Shows/Bands",
+        "created_at": 1380564359, "modified_at": 1380564449, "private": true, "aggregate_link":
+        "http://bit.ly/x8GxBBK", "long_url": "http://example.com/bands?station_id=95166&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=415&short_url=http://bit.ly/x4Yn1H6#play",
+        "client_id": "", "link": "http://bit.ly/x8GxBBJ"}, {"archived": false, "user_ts":
+        1380564359, "title": "Example: Find Shows/Bands", "created_at": 1380564359,
+        "modified_at": 1380564449, "private": true, "aggregate_link": "http://bit.ly/x4Yn1H7",
+        "long_url": "http://example.com/bands?station_id=95166&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=415#play",
+        "client_id": "", "link": "http://bit.ly/x4Yn1H6"}, {"archived": false, "user_ts":
+        1380564281, "title": "Example: Find Shows/Bands", "created_at": 1380564281,
+        "modified_at": 1380564551, "private": true, "aggregate_link": "http://bit.ly/x8GxiHh",
+        "long_url": "http://example.com/bands?station_id=102030&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=38.907231&band_search[location]=Washington,+DC,+USA&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-77.036464&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x4YmO6C#play",
+        "client_id": "", "link": "http://bit.ly/x8GxiHg"}, {"archived": false, "user_ts":
+        1380564281, "title": "Example: Find Shows/Bands", "created_at": 1380564281,
+        "modified_at": 1380564371, "private": true, "aggregate_link": "http://bit.ly/x4YmO6D",
+        "long_url": "http://example.com/bands?station_id=102030&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=38.907231&band_search[location]=Washington,+DC,+USA&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-77.036464&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x4YmO6C"}, {"archived": false, "user_ts":
+        1380564279, "title": "Example: Find Shows/Bands", "created_at": 1380564279,
+        "modified_at": 1380564362, "private": true, "aggregate_link": "http://bit.ly/x8Gxhmu",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=4.598056&band_search[location]=Bogota,+Bogot\u00e1,+D.C.,+CO&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-74.075833&band_search[radius]=128&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x4YmOUb#play",
+        "client_id": "", "link": "http://bit.ly/x8Gxhmt"}, {"archived": false, "user_ts":
+        1380564278, "title": "Example: Find Shows/Bands", "created_at": 1380564278,
+        "modified_at": 1380564362, "private": true, "aggregate_link": "http://bit.ly/x4YmOUc",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=4.598056&band_search[location]=Bogota,+Bogot\u00e1,+D.C.,+CO&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-74.075833&band_search[radius]=128&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x4YmOUb"}, {"archived": false, "user_ts":
+        1380562997, "title": "Example: MS MR", "created_at": 1380562997, "modified_at":
+        1380563267, "private": true, "aggregate_link": "http://bit.ly/x4YjxnT", "long_url":
+        "http://example.com/ms-mr?album_id=29034&track=1#play=29034&track=1", "client_id":
+        "", "link": "http://bit.ly/x4YjxnR"}, {"archived": false, "user_ts": 1380562997,
+        "title": "Example: MS MR", "created_at": 1380562997, "modified_at": 1380563267,
+        "private": true, "aggregate_link": "http://bit.ly/xzs1ZG", "long_url": "http://example.com/ms-mr?album_id=29034&track=1&short_url=http://bit.ly/x4YjxnR#play=29034&track=1",
+        "client_id": "", "link": "http://bit.ly/xzs1ZF"}, {"archived": false, "user_ts":
+        1380562851, "title": "Example: Stick FIgure", "created_at": 1380562851,
+        "modified_at": 1380562941, "private": true, "aggregate_link": "http://bit.ly/x8Gr8XH",
+        "long_url": "http://example.com/stick-figure?album_id=16158&track=1#play=16158&track=1",
+        "client_id": "", "link": "http://bit.ly/x8Gr8XG"}, {"archived": false, "user_ts":
+        1380562851, "title": "Example: Stick FIgure", "created_at": 1380562851,
+        "modified_at": 1380562941, "private": true, "aggregate_link": "http://bit.ly/x4Yj8Sn",
+        "long_url": "http://example.com/stick-figure?album_id=16158&track=1&short_url=http://bit.ly/x8Gr8XG#play=16158&track=1",
+        "client_id": "", "link": "http://bit.ly/x4Yj8Sm"}, {"archived": false, "user_ts":
+        1380562591, "title": "Example: The Lizardz", "created_at": 1380562591, "modified_at":
+        1380562681, "private": true, "aggregate_link": "http://bit.ly/x8Gq3Py", "long_url":
+        "http://example.com/the-lizardz?album_id=21455&short_url=http://bit.ly/x4YhH6l#play=21455&album=1",
+        "client_id": "", "link": "http://bit.ly/x8Gq3Px"}, {"archived": false, "user_ts":
+        1380562591, "title": "Example: The Lizardz", "created_at": 1380562591, "modified_at":
+        1380563073, "private": true, "aggregate_link": "http://bit.ly/x4YhH6m", "long_url":
+        "http://example.com/the-lizardz?album_id=21455#play=21455&album=1", "client_id":
+        "", "link": "http://bit.ly/x4YhH6l"}, {"archived": false, "user_ts": 1380560757,
+        "title": "Example: Find Shows/Bands", "created_at": 1380560757, "modified_at":
+        1380561657, "private": true, "aggregate_link": "http://bit.ly/x8GiMzj", "long_url":
+        "http://example.com/bands?station_id=102029&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=80657#play",
+        "client_id": "", "link": "http://bit.ly/x8GiMzi"}, {"archived": false, "user_ts":
+        1380560757, "title": "Example: Find Shows/Bands", "created_at": 1380560757,
+        "modified_at": 1380561297, "private": true, "aggregate_link": "http://bit.ly/x4YcCLi",
+        "long_url": "http://example.com/bands?station_id=102029&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=80657&short_url=http://bit.ly/x8GiMzi#play",
+        "client_id": "", "link": "http://bit.ly/x4YcCv5"}, {"archived": false, "user_ts":
+        1380557937, "title": "Example: Find Shows/Bands", "created_at": 1380557937,
+        "modified_at": 1380558477, "private": true, "aggregate_link": "http://bit.ly/x8G5By7",
+        "long_url": "http://example.com/bands?station_id=95232&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=17504#play",
+        "client_id": "", "link": "http://bit.ly/x8G5By6"}, {"archived": false, "user_ts":
+        1380557937, "title": "Example: Find Shows/Bands", "created_at": 1380557937,
+        "modified_at": 1380558556, "private": true, "aggregate_link": "http://bit.ly/x4Y4hY2",
+        "long_url": "http://example.com/bands?station_id=95232&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=17504&short_url=http://bit.ly/x8G5By6#play",
+        "client_id": "", "link": "http://bit.ly/x4Y4hY1"}, {"archived": false, "user_ts":
+        1380557751, "title": "Example: Pegboard Nerds", "created_at": 1380557751,
+        "modified_at": 1380558290, "private": true, "aggregate_link": "http://bit.ly/x8G4HBT",
+        "long_url": "https://example.com/pegboard-nerds?album_id=28519#play=28519&album=1",
+        "client_id": "", "link": "http://bit.ly/x8G4HBS"}, {"archived": false, "user_ts":
+        1380557750, "title": "Example: Pegboard Nerds", "created_at": 1380557750,
+        "modified_at": 1380558656, "private": true, "aggregate_link": "http://bit.ly/x4Y3RBd",
+        "long_url": "https://example.com/pegboard-nerds?album_id=28519&short_url=http://bit.ly/x8G4HBS#play=28519&album=1",
+        "client_id": "", "link": "http://bit.ly/x4Y3RBc"}, {"archived": false, "user_ts":
+        1380557573, "title": "Example: Find Shows/Bands", "created_at": 1380557573,
+        "modified_at": 1380558437, "private": true, "aggregate_link": "http://bit.ly/x8G3XwD",
+        "long_url": "http://example.com/bands?station_id=98208&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=59948#play",
+        "client_id": "", "link": "http://bit.ly/x8G3XwC"}, {"archived": false, "user_ts":
+        1380557573, "title": "Example: Find Shows/Bands", "created_at": 1380557573,
+        "modified_at": 1380558114, "private": true, "aggregate_link": "http://bit.ly/x4Y3qqm",
+        "long_url": "http://example.com/bands?station_id=98208&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=59948&short_url=http://bit.ly/x8G3XwC#play",
+        "client_id": "", "link": "http://bit.ly/x4Y3qql"}, {"archived": false, "user_ts":
+        1380557167, "title": "Example: Find Shows/Bands", "created_at": 1380557167,
+        "modified_at": 1380557707, "private": true, "aggregate_link": "http://bit.ly/x8G25DY",
+        "long_url": "http://example.com/bands?station_id=94083&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=220#play",
+        "client_id": "", "link": "http://bit.ly/x8G25DX"}, {"archived": false, "user_ts":
+        1380557167, "title": "Example: Find Shows/Bands", "created_at": 1380557167,
+        "modified_at": 1380558067, "private": true, "aggregate_link": "http://bit.ly/x4Y2mmp",
+        "long_url": "http://example.com/bands?station_id=94083&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=220&short_url=http://bit.ly/x8G25DX#play",
+        "client_id": "", "link": "http://bit.ly/x4Y2mmo"}, {"archived": false, "user_ts":
+        1380557116, "title": "Example: Find Shows/Bands", "created_at": 1380557116,
+        "modified_at": 1380558019, "private": true, "aggregate_link": "http://bit.ly/x8G1P85",
+        "long_url": "http://example.com/bands?station_id=102028&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=52.516699999999986&band_search[location]=Nuneaton,+Warwickshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-1.466700000000003&band_search[radius]=16&band_search[search]=Ben+Taylor&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17781,+94300#play",
+        "client_id": "", "link": "http://bit.ly/x8G1P84"}, {"archived": false, "user_ts":
+        1380557116, "title": "Example: Find Shows/Bands", "created_at": 1380557116,
+        "modified_at": 1380557656, "private": true, "aggregate_link": "http://bit.ly/x4Y2cLR",
+        "long_url": "http://example.com/bands?station_id=102028&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=52.516699999999986&band_search[location]=Nuneaton,+Warwickshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-1.466700000000003&band_search[radius]=16&band_search[search]=Ben+Taylor&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17781,+94300&short_url=http://bit.ly/x8G1P84#play",
+        "client_id": "", "link": "http://bit.ly/x4Y2cLQ"}, {"archived": false, "user_ts":
+        1380556533, "title": "Example: Find Shows/Bands", "created_at": 1380556533,
+        "modified_at": 1380557073, "private": true, "aggregate_link": "http://bit.ly/x4Y0LNo",
+        "long_url": "http://example.com/bands?station_id=98775&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=52446&short_url=http://bit.ly/x8FZcmI#play",
+        "client_id": "", "link": "http://bit.ly/x4Y0LNn"}, {"archived": false, "user_ts":
+        1380556532, "title": "Example: Find Shows/Bands", "created_at": 1380556532,
+        "modified_at": 1380556623, "private": true, "aggregate_link": "http://bit.ly/x8FZcmL",
+        "long_url": "http://example.com/bands?station_id=98775&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=52446#play",
+        "client_id": "", "link": "http://bit.ly/x8FZcmI"}, {"archived": false, "user_ts":
+        1380554753, "title": "Example: Find Shows/Bands", "created_at": 1380554753,
+        "modified_at": 1380555023, "private": true, "aggregate_link": "http://bit.ly/x8FS2im",
+        "long_url": "http://example.com/bands?station_id=102024&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=52.370216&band_search[location]=Amsterdam,+NH,+NL&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=4.895168&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x8FS2ij"}, {"archived": false, "user_ts":
+        1380554753, "title": "Example: Find Shows/Bands", "created_at": 1380554753,
+        "modified_at": 1380555023, "private": true, "aggregate_link": "http://bit.ly/x4XW9H3",
+        "long_url": "http://example.com/bands?station_id=102024&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=52.370216&band_search[location]=Amsterdam,+NH,+NL&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=4.895168&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x8FS2ij#play",
+        "client_id": "", "link": "http://bit.ly/x4XW9H2"}, {"archived": false, "user_ts":
+        1380554749, "title": "Example: Find Shows/Bands", "created_at": 1380554749,
+        "modified_at": 1380555289, "private": true, "aggregate_link": "http://bit.ly/x8FRVTW",
+        "long_url": "http://example.com/bands?station_id=102023&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=52.516699999999986&band_search[location]=Nuneaton,+Warwickshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-1.466700000000003&band_search[radius]=16&band_search[search]=Ben+Taylor&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17988,+99383#play",
+        "client_id": "", "link": "http://bit.ly/x8FRVTV"}, {"archived": false, "user_ts":
+        1380554749, "title": "Example: Find Shows/Bands", "created_at": 1380554749,
+        "modified_at": 1380555289, "private": true, "aggregate_link": "http://bit.ly/x4XW9a9",
+        "long_url": "http://example.com/bands?station_id=102023&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=52.516699999999986&band_search[location]=Nuneaton,+Warwickshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-1.466700000000003&band_search[radius]=16&band_search[search]=Ben+Taylor&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17988,+99383&short_url=http://bit.ly/x8FRVTV#play",
+        "client_id": "", "link": "http://bit.ly/x4XW9a8"}, {"archived": false, "user_ts":
+        1380554467, "title": "Example: Find Shows/Bands", "created_at": 1380554467,
+        "modified_at": 1380554990, "private": true, "aggregate_link": "http://bit.ly/x8FQKni",
+        "long_url": "http://example.com/bands?station_id=102022&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=43.653226&band_search[location]=Toronto,+ON,+CA&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-79.383184&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x8FQHrV"}, {"archived": false, "user_ts":
+        1380554448, "title": "Example: Find Shows/Bands", "created_at": 1380554448,
+        "modified_at": 1380554538, "private": true, "aggregate_link": "http://bit.ly/x4XVqpl",
+        "long_url": "http://example.com/bands?station_id=102022&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=43.653226&band_search[location]=Toronto,+ON,+CA&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-79.383184&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x8FQHrV#play",
+        "client_id": "", "link": "http://bit.ly/x4XVqpk"}, {"archived": false, "user_ts":
+        1380554331, "title": "Example: Find Shows/Bands", "created_at": 1380554331,
+        "modified_at": 1380554619, "private": true, "aggregate_link": "http://bit.ly/x8FQdlr",
+        "long_url": "http://example.com/bands?station_id=102020&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=52.516699999999986&band_search[location]=Nuneaton,+Warwickshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-1.466700000000003&band_search[radius]=16&band_search[search]=Ben+Taylor&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=92802,+15736,+102731#play",
+        "client_id": "", "link": "http://bit.ly/x8FQdlq"}, {"archived": false, "user_ts":
+        1380554331, "title": "Example: Find Shows/Bands", "created_at": 1380554331,
+        "modified_at": 1380554871, "private": true, "aggregate_link": "http://bit.ly/x4XV8ia",
+        "long_url": "http://example.com/bands?station_id=102020&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=52.516699999999986&band_search[location]=Nuneaton,+Warwickshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-1.466700000000003&band_search[radius]=16&band_search[search]=Ben+Taylor&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=92802,+15736,+102731&short_url=http://bit.ly/x8FQdlq#play",
+        "client_id": "", "link": "http://bit.ly/x4XV8i9"}, {"archived": false, "user_ts":
+        1380489343, "title": "Example: Find Shows/Bands", "created_at": 1380489343,
+        "modified_at": 1380489434, "private": true, "aggregate_link": "http://bit.ly/x9NzH38",
+        "long_url": "http://example.com/bands?station_id=102012&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=52.193636&band_search[location]=Worcester,+England,+GB&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-2.221575&band_search[radius]=32&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x5Di09f#play",
+        "client_id": "", "link": "http://bit.ly/x9NzH37"}, {"archived": false, "user_ts":
+        1380489343, "title": "Example: Find Shows/Bands", "created_at": 1380489343,
+        "modified_at": 1380489434, "private": true, "aggregate_link": "http://bit.ly/x5Di09g",
+        "long_url": "http://example.com/bands?station_id=102012&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=52.193636&band_search[location]=Worcester,+England,+GB&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-2.221575&band_search[radius]=32&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x5Di09f"}, {"archived": false, "user_ts":
+        1380461147, "title": "Example: Antonomasia", "created_at": 1380461147, "modified_at":
+        1380461237, "private": true, "aggregate_link": "http://bit.ly/xdQnFsC", "long_url":
+        "http://example.com/antonomasia?album_id=32044#play=32044&album=1", "client_id":
+        "", "link": "http://bit.ly/xdQnFsB"}, {"archived": false, "user_ts": 1380461147,
+        "title": "Example: Antonomasia", "created_at": 1380461147, "modified_at":
+        1380461237, "private": true, "aggregate_link": "http://bit.ly/xfT8fG6", "long_url":
+        "http://example.com/antonomasia?album_id=32044&short_url=http://bit.ly/xdQnFsB#play=32044&album=1",
+        "client_id": "", "link": "http://bit.ly/xfT8fG5"}, {"archived": false, "user_ts":
+        1380461133, "title": "Example: Antonomasia", "created_at": 1380461133, "modified_at":
+        1380461223, "private": true, "aggregate_link": "http://bit.ly/xfT8gtE", "long_url":
+        "http://example.com/antonomasia?album_id=32045&short_url=http://bit.ly/xdQnzBn#play=32045&album=1",
+        "client_id": "", "link": "http://bit.ly/xfT8gtD"}, {"archived": false, "user_ts":
+        1380461132, "title": "Example: Antonomasia", "created_at": 1380461132, "modified_at":
+        1380461223, "private": true, "aggregate_link": "http://bit.ly/xdQnzBo", "long_url":
+        "http://example.com/antonomasia?album_id=32045#play=32045&album=1", "client_id":
+        "", "link": "http://bit.ly/xdQnzBn"}, {"archived": false, "user_ts": 1380461102,
+        "title": "Example: Antonomasia", "created_at": 1380461102, "modified_at":
+        1380461192, "private": true, "aggregate_link": "http://bit.ly/xfT8aST", "long_url":
+        "http://example.com/antonomasia?album_id=32052&short_url=http://bit.ly/xdQnyNS#play=32052&album=1",
+        "client_id": "", "link": "http://bit.ly/xfT8aSS"}, {"archived": false, "user_ts":
+        1380461102, "title": "Example: Antonomasia", "created_at": 1380461102, "modified_at":
+        1380461192, "private": true, "aggregate_link": "http://bit.ly/xdQnyNT", "long_url":
+        "http://example.com/antonomasia?album_id=32052#play=32052&album=1", "client_id":
+        "", "link": "http://bit.ly/xdQnyNS"}, {"archived": false, "user_ts": 1380426653,
+        "title": "Example: The Brothers Comatose", "created_at": 1380426653, "modified_at":
+        1380426743, "private": true, "aggregate_link": "http://bit.ly/xbhOFR0", "long_url":
+        "http://example.com/s/bc69d0c", "client_id": "", "link": "http://bit.ly/xbhOFQZ"},
+        {"archived": false, "user_ts": 1380398744, "title": "Example: The Barefoot
+        Movement", "created_at": 1380398744, "modified_at": 1380398834, "private":
+        true, "aggregate_link": "http://bit.ly/xbiIpvK", "long_url": "http://example.com/the-barefoot-movement?album_id=5984&track=4#play=5984&track=4",
+        "client_id": "", "link": "http://bit.ly/xbiIpvJ"}, {"archived": false, "user_ts":
+        1380398744, "title": "Example: The Barefoot Movement", "created_at": 1380398744,
+        "modified_at": 1380398834, "private": true, "aggregate_link": "http://bit.ly/x6TgATe",
+        "long_url": "http://example.com/the-barefoot-movement?album_id=5984&track=4&short_url=http://bit.ly/xbiIpvJ#play=5984&track=4",
+        "client_id": "", "link": "http://bit.ly/x6TgATd"}, {"archived": false, "user_ts":
+        1380398014, "title": "Example: Find Shows/Bands", "created_at": 1380398014,
+        "modified_at": 1380398104, "private": true, "aggregate_link": "http://bit.ly/x6TeylY",
+        "long_url": "http://example.com/s/965b4e4", "client_id": "", "link": "http://bit.ly/x6TeylX"},
+        {"archived": false, "user_ts": 1380395146, "title": "Example: Sentimiento
+        Nacional", "created_at": 1380395146, "modified_at": 1380395237, "private":
+        true, "aggregate_link": "http://bit.ly/x6zyFLJ", "long_url": "http://example.com/sentimiento-nacional?album_id=13887&track=0&short_url=http://bit.ly/x9NsIpC#play=13887&track=0",
+        "client_id": "", "link": "http://bit.ly/x6zyFLI"}, {"archived": false, "user_ts":
+        1380395146, "title": "Example: Sentimiento Nacional", "created_at": 1380395146,
+        "modified_at": 1380395237, "private": true, "aggregate_link": "http://bit.ly/x9NsIpD",
+        "long_url": "http://example.com/sentimiento-nacional?album_id=13887&track=0#play=13887&track=0",
+        "client_id": "", "link": "http://bit.ly/x9NsIpC"}, {"archived": false, "user_ts":
+        1380368082, "title": "Example: Find Shows/Bands", "created_at": 1380368082,
+        "modified_at": 1380368172, "private": true, "aggregate_link": "http://bit.ly/x5B1oPE",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[latitude]=39.0274&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-77.2365&band_search[radius]=15&short_url=http://bit.ly/xhayyoS#play",
+        "client_id": "", "link": "http://bit.ly/x5B1oPD"}, {"archived": false, "user_ts":
+        1380368082, "title": "Example: Find Shows/Bands", "created_at": 1380368082,
+        "modified_at": 1380368172, "private": true, "aggregate_link": "http://bit.ly/xhayyoT",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[latitude]=39.0274&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-77.2365&band_search[radius]=15#play",
+        "client_id": "", "link": "http://bit.ly/xhayyoS"}, {"archived": false, "user_ts":
+        1380359996, "title": "Example: paper HEART", "created_at": 1380359996, "modified_at":
+        1380360086, "private": true, "aggregate_link": "http://bit.ly/xdOXdQ1", "long_url":
+        "http://example.com/s/e67c916", "client_id": "", "link": "http://bit.ly/xdOXdQ0"},
+        {"archived": false, "user_ts": 1380355968, "title": "Example: Polyrhythmics",
+        "created_at": 1380355968, "modified_at": 1380356058, "private": true, "aggregate_link":
+        "http://bit.ly/xfwYX4J", "long_url": "http://example.com/s/2113616", "client_id":
+        "", "link": "http://bit.ly/xfwYX4I"}, {"archived": false, "user_ts": 1380355510,
+        "title": "Example: The Mowgli''s", "created_at": 1380355510, "modified_at":
+        1380355600, "private": true, "aggregate_link": "http://bit.ly/x5APXCa", "long_url":
+        "http://example.com/the-mowglis?album_id=11895&track=4&short_url=http://bit.ly/xfwY8ZP#play=11895&track=4",
+        "client_id": "", "link": "http://bit.ly/x5APXC9"}, {"archived": false, "user_ts":
+        1380355509, "title": "Example: The Mowgli''s", "created_at": 1380355509,
+        "modified_at": 1380355600, "private": true, "aggregate_link": "http://bit.ly/xfwY8ZQ",
+        "long_url": "http://example.com/the-mowglis?album_id=11895&track=4#play=11895&track=4",
+        "client_id": "", "link": "http://bit.ly/xfwY8ZP"}, {"archived": false, "user_ts":
+        1380333586, "title": "Example: The Shotgun Wedding Quintet", "created_at":
+        1380333586, "modified_at": 1380333676, "private": true, "aggregate_link":
+        "http://bit.ly/x4QogIa", "long_url": "http://example.com/s/572e2f8", "client_id":
+        "", "link": "http://bit.ly/x4QogI9"}, {"archived": false, "user_ts": 1380326229,
+        "title": "Example: Find Shows/Bands", "created_at": 1380326229, "modified_at":
+        1380326319, "private": true, "aggregate_link": "http://bit.ly/x6xzIvH", "long_url":
+        "http://example.com/bands?station_id=95370&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=749#play",
+        "client_id": "", "link": "http://bit.ly/x6xzIvG"}, {"archived": false, "user_ts":
+        1380326229, "title": "Example: Find Shows/Bands", "created_at": 1380326229,
+        "modified_at": 1380326319, "private": true, "aggregate_link": "http://bit.ly/xh9IC1z",
+        "long_url": "http://example.com/bands?station_id=95370&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=749&short_url=http://bit.ly/x6xzIvG#play",
+        "client_id": "", "link": "http://bit.ly/xh9IC1y"}, {"archived": false, "user_ts":
+        1380320537, "title": "Example: Find Shows/Bands", "created_at": 1380320537,
+        "modified_at": 1380320627, "private": true, "aggregate_link": "http://bit.ly/x9Mv6Ni",
+        "long_url": "http://example.com/bands?station_id=101787&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=62736#play",
+        "client_id": "", "link": "http://bit.ly/x9Mv6Nh"}, {"archived": false, "user_ts":
+        1380320537, "title": "Example: Find Shows/Bands", "created_at": 1380320537,
+        "modified_at": 1380320627, "private": true, "aggregate_link": "http://bit.ly/x60VsxD",
+        "long_url": "http://example.com/bands?station_id=101787&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=62736&short_url=http://bit.ly/x9Mv6Nh#play",
+        "client_id": "", "link": "http://bit.ly/x60VsxC"}, {"archived": false, "user_ts":
+        1380319795, "title": "Example: Find Shows/Bands", "created_at": 1380319795,
+        "modified_at": 1380319885, "private": true, "aggregate_link": "http://bit.ly/x60Tm0G",
+        "long_url": "http://example.com/bands?station_id=95022&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1501&short_url=http://bit.ly/x9Muuao#play",
+        "client_id": "", "link": "http://bit.ly/x60Tm0F"}, {"archived": false, "user_ts":
+        1380319795, "title": "Example: Find Shows/Bands", "created_at": 1380319795,
+        "modified_at": 1380319885, "private": true, "aggregate_link": "http://bit.ly/x9Muuap",
+        "long_url": "http://example.com/bands?station_id=95022&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1501#play",
+        "client_id": "", "link": "http://bit.ly/x9Muuao"}, {"archived": false, "user_ts":
+        1380319360, "title": "Example: Find Shows/Bands", "created_at": 1380319360,
+        "modified_at": 1380319450, "private": true, "aggregate_link": "http://bit.ly/x9Mu1Fj",
+        "long_url": "http://example.com/bands?station_id=95285&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=68813#play",
+        "client_id": "", "link": "http://bit.ly/x9Mu1Fi"}, {"archived": false, "user_ts":
+        1380319360, "title": "Example: Find Shows/Bands", "created_at": 1380319360,
+        "modified_at": 1380319450, "private": true, "aggregate_link": "http://bit.ly/x60S4CL",
+        "long_url": "http://example.com/bands?station_id=95285&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=68813&short_url=http://bit.ly/x9Mu1Fi#play",
+        "client_id": "", "link": "http://bit.ly/x60S4CK"}, {"archived": false, "user_ts":
+        1380319321, "title": "Example: Find Shows/Bands", "created_at": 1380319321,
+        "modified_at": 1380319411, "private": true, "aggregate_link": "http://bit.ly/x9Mu2ZJ",
+        "long_url": "http://example.com/bands?station_id=95283&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=95#play",
+        "client_id": "", "link": "http://bit.ly/x9Mu2ZI"}, {"archived": false, "user_ts":
+        1380319321, "title": "Example: Find Shows/Bands", "created_at": 1380319321,
+        "modified_at": 1380319411, "private": true, "aggregate_link": "http://bit.ly/x60S1qD",
+        "long_url": "http://example.com/bands?station_id=95283&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=95&short_url=http://bit.ly/x9Mu2ZI#play",
+        "client_id": "", "link": "http://bit.ly/x60S1qC"}, {"archived": false, "user_ts":
+        1380319293, "title": "Example: Find Shows/Bands", "created_at": 1380319293,
+        "modified_at": 1380319383, "private": true, "aggregate_link": "http://bit.ly/x9MtZx3",
+        "long_url": "http://example.com/bands?station_id=95281&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=496#play",
+        "client_id": "", "link": "http://bit.ly/x9MtZx2"}, {"archived": false, "user_ts":
+        1380319293, "title": "Example: Find Shows/Bands", "created_at": 1380319293,
+        "modified_at": 1380319383, "private": true, "aggregate_link": "http://bit.ly/x60RWmV",
+        "long_url": "http://example.com/bands?station_id=95281&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=496&short_url=http://bit.ly/x9MtZx2#play",
+        "client_id": "", "link": "http://bit.ly/x60RWmU"}, {"archived": false, "user_ts":
+        1380318889, "title": "Example: Find Shows/Bands", "created_at": 1380318889,
+        "modified_at": 1380318980, "private": true, "aggregate_link": "http://bit.ly/x9MtHq9",
+        "long_url": "http://example.com/bands?station_id=93915&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=23177&short_url=http://bit.ly/x60QIbg#play",
+        "client_id": "", "link": "http://bit.ly/x9MtHq8"}, {"archived": false, "user_ts":
+        1380318889, "title": "Example: Find Shows/Bands", "created_at": 1380318889,
+        "modified_at": 1380318980, "private": true, "aggregate_link": "http://bit.ly/x60QIbh",
+        "long_url": "http://example.com/bands?station_id=93915&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=23177#play",
+        "client_id": "", "link": "http://bit.ly/x60QIbg"}, {"archived": false, "user_ts":
+        1380318768, "title": "Example: Find Shows/Bands", "created_at": 1380318768,
+        "modified_at": 1380318858, "private": true, "aggregate_link": "http://bit.ly/x60Qlxu",
+        "long_url": "http://example.com/bands?station_id=95925&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=243#play",
+        "client_id": "", "link": "http://bit.ly/x60Qlxt"}, {"archived": false, "user_ts":
+        1380318768, "title": "Example: Find Shows/Bands", "created_at": 1380318768,
+        "modified_at": 1380318858, "private": true, "aggregate_link": "http://bit.ly/x9MtC5P",
+        "long_url": "http://example.com/bands?station_id=95925&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=243&short_url=http://bit.ly/x60Qlxt#play",
+        "client_id": "", "link": "http://bit.ly/x9MtC5O"}, {"archived": false, "user_ts":
+        1380318630, "title": "Example: Find Shows/Bands", "created_at": 1380318630,
+        "modified_at": 1380318720, "private": true, "aggregate_link": "http://bit.ly/x60PY64",
+        "long_url": "http://example.com/bands?station_id=96780&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=35632#play",
+        "client_id": "", "link": "http://bit.ly/x60PY63"}, {"archived": false, "user_ts":
+        1380318630, "title": "Example: Find Shows/Bands", "created_at": 1380318630,
+        "modified_at": 1380318720, "private": true, "aggregate_link": "http://bit.ly/x9Mtt2g",
+        "long_url": "http://example.com/bands?station_id=96780&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=35632&short_url=http://bit.ly/x60PY63#play",
+        "client_id": "", "link": "http://bit.ly/x9Mtt2f"}, {"archived": false, "user_ts":
+        1380318600, "title": "Example: Find Shows/Bands", "created_at": 1380318600,
+        "modified_at": 1380318690, "private": true, "aggregate_link": "http://bit.ly/x60PQDs",
+        "long_url": "http://example.com/bands?station_id=93890&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1708#play",
+        "client_id": "", "link": "http://bit.ly/x60PQDr"}, {"archived": false, "user_ts":
+        1380318600, "title": "Example: Find Shows/Bands", "created_at": 1380318600,
+        "modified_at": 1380318690, "private": true, "aggregate_link": "http://bit.ly/x9MttPF",
+        "long_url": "http://example.com/bands?station_id=93890&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1708&short_url=http://bit.ly/x60PQDr#play",
+        "client_id": "", "link": "http://bit.ly/x9MttPE"}, {"archived": false, "user_ts":
+        1380317685, "title": "Example: Find Shows/Bands", "created_at": 1380317685,
+        "modified_at": 1380317775, "private": true, "aggregate_link": "http://bit.ly/x9Mrzyy",
+        "long_url": "http://example.com/bands?station_id=93898&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=53501#play",
+        "client_id": "", "link": "http://bit.ly/x9Mrzyx"}, {"archived": false, "user_ts":
+        1380317685, "title": "Example: Find Shows/Bands", "created_at": 1380317685,
+        "modified_at": 1380317775, "private": true, "aggregate_link": "http://bit.ly/x60Mnon",
+        "long_url": "http://example.com/bands?station_id=93898&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=53501&short_url=http://bit.ly/x9Mrzyx#play",
+        "client_id": "", "link": "http://bit.ly/x60Mnom"}, {"archived": false, "user_ts":
+        1380317677, "title": "Example: Heather Luttrell", "created_at": 1380317677,
+        "modified_at": 1380317767, "private": true, "aggregate_link": "http://bit.ly/x60Mmkz",
+        "long_url": "http://example.com/s/0c04008", "client_id": "", "link": "http://bit.ly/x60Mmky"},
+        {"archived": false, "user_ts": 1380317637, "title": "Example: Chris Milam",
+        "created_at": 1380317637, "modified_at": 1380317727, "private": true, "aggregate_link":
+        "http://bit.ly/x60MfVT", "long_url": "http://example.com/s/cf7820b", "client_id":
+        "", "link": "http://bit.ly/x60MfVS"}, {"archived": false, "user_ts": 1380317554,
+        "title": "Example: Find Shows/Bands", "created_at": 1380317554, "modified_at":
+        1380317644, "private": true, "aggregate_link": "http://bit.ly/x60M2SK", "long_url":
+        "http://example.com/bands?station_id=97151&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1645#play",
+        "client_id": "", "link": "http://bit.ly/x60M2SJ"}, {"archived": false, "user_ts":
+        1380317554, "title": "Example: Find Shows/Bands", "created_at": 1380317554,
+        "modified_at": 1380317644, "private": true, "aggregate_link": "http://bit.ly/x9MrsTH",
+        "long_url": "http://example.com/bands?station_id=97151&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1645&short_url=http://bit.ly/x60M2SJ#play",
+        "client_id": "", "link": "http://bit.ly/x9MrsTG"}, {"archived": false, "user_ts":
+        1380312822, "title": "Example: Find Shows/Bands", "created_at": 1380312822,
+        "modified_at": 1380312913, "private": true, "aggregate_link": "http://bit.ly/xfNXCEk",
+        "long_url": "http://example.com/bands?station_id=101974&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=627,+546#play",
+        "client_id": "", "link": "http://bit.ly/xfNXCEj"}, {"archived": false, "user_ts":
+        1380312822, "title": "Example: Find Shows/Bands", "created_at": 1380312822,
+        "modified_at": 1380312913, "private": true, "aggregate_link": "http://bit.ly/x8wreRp",
+        "long_url": "http://example.com/bands?station_id=101974&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=627,+546&short_url=http://bit.ly/xfNXCEj#play",
+        "client_id": "", "link": "http://bit.ly/x8wreRo"}, {"archived": false, "user_ts":
+        1380312119, "title": "Example: Find Shows/Bands", "created_at": 1380312119,
+        "modified_at": 1380312209, "private": true, "aggregate_link": "http://bit.ly/x8wpfwy",
+        "long_url": "http://example.com/bands?station_id=101534&short_url=http://bit.ly/xfNVqN7#play",
+        "client_id": "", "link": "http://bit.ly/x8wpfwx"}, {"archived": false, "user_ts":
+        1380312119, "title": "Example: Find Shows/Bands", "created_at": 1380312119,
+        "modified_at": 1380312209, "private": true, "aggregate_link": "http://bit.ly/xfNVqN8",
+        "long_url": "http://example.com/bands?station_id=101534#play", "client_id":
+        "", "link": "http://bit.ly/xfNVqN7"}, {"archived": false, "user_ts": 1380308139,
+        "title": "Example: Teenage Bottlerocket", "created_at": 1380308139, "modified_at":
+        1380308229, "private": true, "aggregate_link": "http://bit.ly/xh97kz9", "long_url":
+        "http://example.com/teenage-bottlerocket?album_id=19538&short_url=http://bit.ly/x60emVt#play=19538&album=1",
+        "client_id": "", "link": "http://bit.ly/xh97kz8"}, {"archived": false, "user_ts":
+        1380308139, "title": "Example: Teenage Bottlerocket", "created_at": 1380308139,
+        "modified_at": 1380308229, "private": true, "aggregate_link": "http://bit.ly/x60enbG",
+        "long_url": "http://example.com/teenage-bottlerocket?album_id=19538#play=19538&album=1",
+        "client_id": "", "link": "http://bit.ly/x60emVt"}, {"keyword_link": "http://bit.ly/xignaturesoundsradio",
+        "archived": false, "user_ts": 1380306802, "title": "Example: Find Shows/Bands",
+        "created_at": 1380306802, "modified_at": 1380308127, "private": true, "aggregate_link":
+        "http://bit.ly/xh93rdy", "long_url": "http://example.com/bands?station_id=101966&short_url=http://bit.ly/x6095gr#play",
+        "client_id": "", "link": "http://bit.ly/xh93rdx"}, {"archived": false, "user_ts":
+        1380306801, "title": "Example: Find Shows/Bands", "created_at": 1380306801,
+        "modified_at": 1380306889, "private": true, "aggregate_link": "http://bit.ly/x6095gs",
+        "long_url": "http://example.com/bands?station_id=101966#play", "client_id":
+        "", "link": "http://bit.ly/x6095gr"}, {"archived": false, "user_ts": 1380306005,
+        "title": "Example: Find Shows/Bands", "created_at": 1380306005, "modified_at":
+        1380306095, "private": true, "aggregate_link": "http://bit.ly/x606gMp", "long_url":
+        "http://example.com/bands?station_id=101965&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=1590,+615#play",
+        "client_id": "", "link": "http://bit.ly/x606gMo"}, {"archived": false, "user_ts":
+        1380306005, "title": "Example: Find Shows/Bands", "created_at": 1380306005,
+        "modified_at": 1380306095, "private": true, "aggregate_link": "http://bit.ly/xh91E8j",
+        "long_url": "http://example.com/bands?station_id=101965&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=1590,+615&short_url=http://bit.ly/x606gMo#play",
+        "client_id": "", "link": "http://bit.ly/xh91E8i"}, {"archived": false, "user_ts":
+        1380305000, "title": "Example: Deer Tick", "created_at": 1380305000, "modified_at":
+        1380305034, "private": true, "aggregate_link": "http://bit.ly/xh8Z9CZ", "long_url":
+        "http://example.com/deer-tick?band=9072&short_url=http://bit.ly/x602brJ#play=9072",
+        "client_id": "", "link": "http://bit.ly/xh8Z9CY"}, {"archived": false, "user_ts":
+        1380304944, "title": "Example: Deer Tick", "created_at": 1380304944, "modified_at":
+        1380305034, "private": true, "aggregate_link": "http://bit.ly/x602bHW", "long_url":
+        "http://example.com/deer-tick?band=9072#play=9072", "client_id": "", "link":
+        "http://bit.ly/x602brJ"}, {"archived": false, "user_ts": 1380304934, "title":
+        "Example: Find Shows/Bands", "created_at": 1380304934, "modified_at": 1380305024,
+        "private": true, "aggregate_link": "http://bit.ly/x6028w2", "long_url": "http://example.com/bands?band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1517#play",
+        "client_id": "", "link": "http://bit.ly/x6028w1"}, {"archived": false, "user_ts":
+        1380304934, "title": "Example: Find Shows/Bands", "created_at": 1380304934,
+        "modified_at": 1380305024, "private": true, "aggregate_link": "http://bit.ly/xh8Z5D8",
+        "long_url": "http://example.com/bands?band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1517&short_url=http://bit.ly/x6028w1#play",
+        "client_id": "", "link": "http://bit.ly/xh8Z5D7"}], "result_count": 300},
+        "status_txt": "OK"}'
+    http_version: 
+  recorded_at: Mon, 30 Sep 2013 19:17:12 GMT
+- request:
+    method: get
+    uri: https://api-ssl.bitly.com/v3/user/link_history?access_token=asdlkfjasd134i1ojfasldkrj234aslkdjfq3249&limit=100&offset=100
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 30 Sep 2013 19:17:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '39518'
+      Etag:
+      - '"3de1cb6de0a7a9733e8b34f3c5efeced8c75452c"'
+    body:
+      encoding: UTF-8
+      string: '{"status_code": 200, "data": {"link_history": [{"archived": false,
+        "user_ts": 1380304282, "title": "Example: Anathema", "created_at": 1380304282,
+        "modified_at": 1380304372, "private": true, "aggregate_link": "http://bit.ly/x5ZZBSx",
+        "long_url": "http://example.com/anathema?album_id=25508&track=0#play=25508&track=0",
+        "client_id": "", "link": "http://bit.ly/x5ZZBSw"}, {"archived": false, "user_ts":
+        1380304282, "title": "Example: Anathema", "created_at": 1380304282, "modified_at":
+        1380304372, "private": true, "aggregate_link": "http://bit.ly/xh8XqO0", "long_url":
+        "http://example.com/anathema?album_id=25508&track=0&short_url=http://bit.ly/x5ZZBSw#play=25508&track=0",
+        "client_id": "", "link": "http://bit.ly/xh8XqNZ"}, {"archived": false, "user_ts":
+        1380304129, "title": "Example: The Stray Birds", "created_at": 1380304129,
+        "modified_at": 1380304219, "private": true, "aggregate_link": "http://bit.ly/x5ZZ4Qr",
+        "long_url": "http://example.com/s/45d9615", "client_id": "", "link": "http://bit.ly/x5ZZ4Qq"},
+        {"archived": false, "user_ts": 1380303899, "title": "Example: Nicki Bluhm",
+        "created_at": 1380303899, "modified_at": 1380303987, "private": true, "aggregate_link":
+        "http://bit.ly/x5ZY9PW", "long_url": "http://example.com/nicki-bluhm?album_id=3019#play=3019&album=1",
+        "client_id": "", "link": "http://bit.ly/x5ZY9PV"}, {"archived": false, "user_ts":
+        1380303899, "title": "Example: Nicki Bluhm", "created_at": 1380303899, "modified_at":
+        1380303987, "private": true, "aggregate_link": "http://bit.ly/xh8Wzww", "long_url":
+        "http://example.com/nicki-bluhm?album_id=3019&short_url=http://bit.ly/x5ZY9PV#play=3019&album=1",
+        "client_id": "", "link": "http://bit.ly/xh8Wzgj"}, {"archived": false, "user_ts":
+        1380302726, "title": "Example: Find Shows/Bands", "created_at": 1380302726,
+        "modified_at": 1380302821, "private": true, "aggregate_link": "http://bit.ly/x5ZTEEV",
+        "long_url": "http://example.com/bands?station_id=101839&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=46372#play",
+        "client_id": "", "link": "http://bit.ly/x5ZTEEU"}, {"archived": false, "user_ts":
+        1380302726, "title": "Example: Find Shows/Bands", "created_at": 1380302726,
+        "modified_at": 1380302820, "private": true, "aggregate_link": "http://bit.ly/xh8TSew",
+        "long_url": "http://example.com/bands?station_id=101839&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=46372&short_url=http://bit.ly/x5ZTEEU#play",
+        "client_id": "", "link": "http://bit.ly/xh8TSev"}, {"archived": false, "user_ts":
+        1380298137, "title": "Example: Find Shows/Bands", "created_at": 1380298137,
+        "modified_at": 1380298407, "private": true, "aggregate_link": "http://bit.ly/x8uZ23o",
+        "long_url": "http://example.com/bands?station_id=94544&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=767#play",
+        "client_id": "", "link": "http://bit.ly/x8uZ23n"}, {"archived": false, "user_ts":
+        1380298137, "title": "Example: Find Shows/Bands", "created_at": 1380298137,
+        "modified_at": 1380298407, "private": true, "aggregate_link": "http://bit.ly/xdO3dbO",
+        "long_url": "http://example.com/bands?station_id=94544&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=767&short_url=http://bit.ly/x8uZ23n#play",
+        "client_id": "", "link": "http://bit.ly/xdO3dbN"}, {"archived": false, "user_ts":
+        1380294459, "title": "Example: The Crystal Method", "created_at": 1380294459,
+        "modified_at": 1380294999, "private": true, "aggregate_link": "http://bit.ly/x98nfc2",
+        "long_url": "http://example.com/the-crystal-method?band=35077#play=35077",
+        "client_id": "", "link": "http://bit.ly/x98nfc1"}, {"archived": false, "user_ts":
+        1380294459, "title": null, "created_at": 1380294459, "modified_at": 1380294459,
+        "private": true, "aggregate_link": "http://bit.ly/x4OTMq5", "long_url": "http://example.com/the-crystal-method?band=35077&short_url=http://bit.ly/x98nfc1#play=35077",
+        "client_id": "", "link": "http://bit.ly/x4OTMq4"}, {"archived": false, "user_ts":
+        1380244458, "title": "Example: Find Shows/Bands", "created_at": 1380244458,
+        "modified_at": 1380244548, "private": true, "aggregate_link": "http://bit.ly/x6uiS0M",
+        "long_url": "http://example.com/bands?station_id=101074&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=50620#play",
+        "client_id": "", "link": "http://bit.ly/x6uiS0L"}, {"archived": false, "user_ts":
+        1380244458, "title": "Example: Find Shows/Bands", "created_at": 1380244458,
+        "modified_at": 1380244548, "private": true, "aggregate_link": "http://bit.ly/x9KP8b4",
+        "long_url": "http://example.com/bands?station_id=101074&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=50620&short_url=http://bit.ly/x6uiS0L#play",
+        "client_id": "", "link": "http://bit.ly/x9KP8b3"}, {"archived": false, "user_ts":
+        1380244050, "title": "Example: Find Shows/Bands", "created_at": 1380244050,
+        "modified_at": 1380244140, "private": true, "aggregate_link": "http://bit.ly/x6ui4sO",
+        "long_url": "http://example.com/bands?station_id=96768&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=2393#play",
+        "client_id": "", "link": "http://bit.ly/x6ui4sN"}, {"archived": false, "user_ts":
+        1380244050, "title": "Example: Find Shows/Bands", "created_at": 1380244050,
+        "modified_at": 1380244140, "private": true, "aggregate_link": "http://bit.ly/x9KOp9P",
+        "long_url": "http://example.com/bands?station_id=96768&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=2393&short_url=http://bit.ly/x6ui4sN#play",
+        "client_id": "", "link": "http://bit.ly/x9KOp9O"}, {"archived": false, "user_ts":
+        1380243848, "title": "Example: Find Shows/Bands", "created_at": 1380243848,
+        "modified_at": 1380243938, "private": true, "aggregate_link": "http://bit.ly/x6uhJpR",
+        "long_url": "http://example.com/bands?station_id=94841&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=2325&short_url=http://bit.ly/x9KNZAj#play",
+        "client_id": "", "link": "http://bit.ly/x6uhJpQ"}, {"archived": false, "user_ts":
+        1380243848, "title": "Example: Find Shows/Bands", "created_at": 1380243848,
+        "modified_at": 1380243938, "private": true, "aggregate_link": "http://bit.ly/x9KNZAk",
+        "long_url": "http://example.com/bands?station_id=94841&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=2325#play",
+        "client_id": "", "link": "http://bit.ly/x9KNZAj"}, {"archived": false, "user_ts":
+        1380243644, "title": "Example: Find Shows/Bands", "created_at": 1380243644,
+        "modified_at": 1380243734, "private": true, "aggregate_link": "http://bit.ly/x6uhmeV",
+        "long_url": "http://example.com/s/cd65ebb", "client_id": "", "link": "http://bit.ly/x6uhmeU"},
+        {"archived": false, "user_ts": 1380243597, "title": "Example: Find Shows/Bands",
+        "created_at": 1380243597, "modified_at": 1380243687, "private": true, "aggregate_link":
+        "http://bit.ly/x6uhfQH", "long_url": "http://example.com/bands?station_id=94824&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=2997#play",
+        "client_id": "", "link": "http://bit.ly/x6uhfQG"}, {"archived": false, "user_ts":
+        1380243597, "title": "Example: Find Shows/Bands", "created_at": 1380243597,
+        "modified_at": 1380243687, "private": true, "aggregate_link": "http://bit.ly/x9KNpCx",
+        "long_url": "http://example.com/bands?station_id=94824&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=2997&short_url=http://bit.ly/x6uhfQG#play",
+        "client_id": "", "link": "http://bit.ly/x9KNpCw"}, {"archived": false, "user_ts":
+        1380241820, "title": "Example: DJ Shadow", "created_at": 1380241820, "modified_at":
+        1380241910, "private": true, "aggregate_link": "http://bit.ly/x9KJW76", "long_url":
+        "http://example.com/s/d6f7bcf", "client_id": "", "link": "http://bit.ly/x9KJW75"},
+        {"archived": false, "user_ts": 1380241752, "title": "Example: DJ Shadow",
+        "created_at": 1380241752, "modified_at": 1380241842, "private": true, "aggregate_link":
+        "http://bit.ly/x6uenTM", "long_url": "http://example.com/s/d265fa9", "client_id":
+        "", "link": "http://bit.ly/x6uenTL"}, {"archived": false, "user_ts": 1380237615,
+        "title": "Example: Bronze Radio Return", "created_at": 1380237615, "modified_at":
+        1380237706, "private": true, "aggregate_link": "http://bit.ly/x5wN3OC", "long_url":
+        "http://example.com/s/771a085", "client_id": "", "link": "http://bit.ly/x5wN3OB"},
+        {"archived": false, "user_ts": 1380236314, "title": "Example: Find Shows/Bands",
+        "created_at": 1380236314, "modified_at": 1380236404, "private": true, "aggregate_link":
+        "http://bit.ly/x5WPgXi", "long_url": "http://example.com/bands?station_id=101929&short_url=http://bit.ly/x5wKgVD#play",
+        "client_id": "", "link": "http://bit.ly/x5WPgXh"}, {"archived": false, "user_ts":
+        1380236314, "title": "Example: Find Shows/Bands", "created_at": 1380236314,
+        "modified_at": 1380236404, "private": true, "aggregate_link": "http://bit.ly/x5wKgVE",
+        "long_url": "http://example.com/bands?station_id=101929#play", "client_id":
+        "", "link": "http://bit.ly/x5wKgVD"}, {"archived": false, "user_ts": 1380235150,
+        "title": "Example: Find Shows/Bands", "created_at": 1380235150, "modified_at":
+        1380235240, "private": true, "aggregate_link": "http://bit.ly/x5WNvta", "long_url":
+        "http://example.com/s/64f383e", "client_id": "", "link": "http://bit.ly/x5WNvt9"},
+        {"archived": false, "user_ts": 1380234718, "title": "Example: Find Shows/Bands",
+        "created_at": 1380234718, "modified_at": 1380234808, "private": true, "aggregate_link":
+        "http://bit.ly/x5wH24x", "long_url": "http://example.com/s/052cc9c", "client_id":
+        "", "link": "http://bit.ly/x5wH24w"}, {"archived": false, "user_ts": 1380231477,
+        "title": "Example: Audrey Auld", "created_at": 1380231477, "modified_at":
+        1380231568, "private": true, "aggregate_link": "http://bit.ly/x6MJqEA", "long_url":
+        "http://example.com/s/8fb821b", "client_id": "", "link": "http://bit.ly/x6MJqEz"},
+        {"archived": false, "user_ts": 1380229395, "title": "Example: Find Shows/Bands",
+        "created_at": 1380229395, "modified_at": 1380229485, "private": true, "aggregate_link":
+        "http://bit.ly/xdMAF2v", "long_url": "http://example.com/bands?station_id=101926&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=30.267153&band_search[location]=Austin,+TX,+US&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-97.743061&band_search[radius]=8&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=98028,+52442#play",
+        "client_id": "", "link": "http://bit.ly/xdMAF2u"}, {"archived": false, "user_ts":
+        1380229395, "title": "Example: Find Shows/Bands", "created_at": 1380229395,
+        "modified_at": 1380229485, "private": true, "aggregate_link": "http://bit.ly/x75kwU3",
+        "long_url": "http://example.com/bands?station_id=101926&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=30.267153&band_search[location]=Austin,+TX,+US&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-97.743061&band_search[radius]=8&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=98028,+52442&short_url=http://bit.ly/xdMAF2u#play",
+        "client_id": "", "link": "http://bit.ly/x75kwU1"}, {"archived": false, "user_ts":
+        1380228911, "title": "Example: Find Shows/Bands", "created_at": 1380228911,
+        "modified_at": 1380229001, "private": true, "aggregate_link": "http://bit.ly/xdMztvY",
+        "long_url": "http://example.com/bands?station_id=94828&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=36141#play",
+        "client_id": "", "link": "http://bit.ly/xdMztvX"}, {"archived": false, "user_ts":
+        1380228911, "title": "Example: Find Shows/Bands", "created_at": 1380228911,
+        "modified_at": 1380229001, "private": true, "aggregate_link": "http://bit.ly/x75jnfi",
+        "long_url": "http://example.com/bands?station_id=94828&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=36141&short_url=http://bit.ly/xdMztvX#play",
+        "client_id": "", "link": "http://bit.ly/x75jnfh"}, {"archived": false, "user_ts":
+        1380228815, "title": "Example: Find Shows/Bands", "created_at": 1380228815,
+        "modified_at": 1380228905, "private": true, "aggregate_link": "http://bit.ly/x75j7wR",
+        "long_url": "http://example.com/bands?station_id=93920&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=205&short_url=http://bit.ly/xdMziRh#play",
+        "client_id": "", "link": "http://bit.ly/x75j7wQ"}, {"archived": false, "user_ts":
+        1380228814, "title": "Example: Find Shows/Bands", "created_at": 1380228814,
+        "modified_at": 1380228905, "private": true, "aggregate_link": "http://bit.ly/xdMziRi",
+        "long_url": "http://example.com/bands?station_id=93920&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=205#play",
+        "client_id": "", "link": "http://bit.ly/xdMziRh"}, {"archived": false, "user_ts":
+        1380228763, "title": "Example: Find Shows/Bands", "created_at": 1380228763,
+        "modified_at": 1380228853, "private": true, "aggregate_link": "http://bit.ly/xdMzdNA",
+        "long_url": "http://example.com/bands?station_id=94839&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1904#play",
+        "client_id": "", "link": "http://bit.ly/xdMzdNz"}, {"archived": false, "user_ts":
+        1380228763, "title": "Example: Find Shows/Bands", "created_at": 1380228763,
+        "modified_at": 1380228853, "private": true, "aggregate_link": "http://bit.ly/x75j1VQ",
+        "long_url": "http://example.com/bands?station_id=94839&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1904&short_url=http://bit.ly/xdMzdNz#play",
+        "client_id": "", "link": "http://bit.ly/x75j1VP"}, {"archived": false, "user_ts":
+        1380228378, "title": "Example: Find Shows/Bands", "created_at": 1380228378,
+        "modified_at": 1380228469, "private": true, "aggregate_link": "http://bit.ly/xdMyCeI",
+        "long_url": "http://example.com/bands?station_id=97826&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=18221&short_url=http://bit.ly/x75idAo#play",
+        "client_id": "", "link": "http://bit.ly/xdMyCeH"}, {"archived": false, "user_ts":
+        1380228378, "title": "Example: Find Shows/Bands", "created_at": 1380228378,
+        "modified_at": 1380228469, "private": true, "aggregate_link": "http://bit.ly/x75idAp",
+        "long_url": "http://example.com/bands?station_id=97826&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=18221#play",
+        "client_id": "", "link": "http://bit.ly/x75idAo"}, {"archived": false, "user_ts":
+        1380227190, "title": "Example: Find Shows/Bands", "created_at": 1380227190,
+        "modified_at": 1380227280, "private": true, "aggregate_link": "http://bit.ly/x75eAKL",
+        "long_url": "http://example.com/bands?station_id=95544&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=18672#play",
+        "client_id": "", "link": "http://bit.ly/x75eAKK"}, {"archived": false, "user_ts":
+        1380227190, "title": "Example: Find Shows/Bands", "created_at": 1380227190,
+        "modified_at": 1380227280, "private": true, "aggregate_link": "http://bit.ly/xdMw7sX",
+        "long_url": "http://example.com/bands?station_id=95544&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=18672&short_url=http://bit.ly/x75eAKK#play",
+        "client_id": "", "link": "http://bit.ly/xdMw7sW"}, {"archived": false, "user_ts":
+        1380227067, "title": "Example: Find Shows/Bands", "created_at": 1380227067,
+        "modified_at": 1380227157, "private": true, "aggregate_link": "http://bit.ly/x75egf4",
+        "long_url": "http://example.com/bands?station_id=94814&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1333#play",
+        "client_id": "", "link": "http://bit.ly/x75egf3"}, {"archived": false, "user_ts":
+        1380227067, "title": "Example: Find Shows/Bands", "created_at": 1380227067,
+        "modified_at": 1380227157, "private": true, "aggregate_link": "http://bit.ly/xdMvS10",
+        "long_url": "http://example.com/bands?station_id=94814&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1333&short_url=http://bit.ly/x75egf3#play",
+        "client_id": "", "link": "http://bit.ly/xdMvS0Z"}, {"archived": false, "user_ts":
+        1380225177, "title": "Example: Metal Mother", "created_at": 1380225177,
+        "modified_at": 1380225267, "private": true, "aggregate_link": "http://bit.ly/xdMrAqt",
+        "long_url": "http://example.com/s/ddfba25", "client_id": "", "link": "http://bit.ly/xdMrAqs"},
+        {"archived": false, "user_ts": 1380219640, "title": "Example: Snarky Puppy",
+        "created_at": 1380219640, "modified_at": 1380220541, "private": true, "aggregate_link":
+        "http://bit.ly/xbITyFh", "long_url": "http://example.com/snarky-puppy?album_id=31941#play=31941&album=1",
+        "client_id": "", "link": "http://bit.ly/xbITyFg"}, {"archived": false, "user_ts":
+        1380219640, "title": "Example: Snarky Puppy", "created_at": 1380219640,
+        "modified_at": 1380220991, "private": true, "aggregate_link": "http://bit.ly/xdMfTjA",
+        "long_url": "http://example.com/snarky-puppy?album_id=31941&short_url=http://bit.ly/xbITyFg#play=31941&album=1",
+        "client_id": "", "link": "http://bit.ly/xdMfTjz"}, {"archived": false, "user_ts":
+        1380219393, "title": "Example: Find Shows/Bands", "created_at": 1380219393,
+        "modified_at": 1380219934, "private": true, "aggregate_link": "http://bit.ly/xbIT6Hd",
+        "long_url": "http://example.com/bands?station_id=101835#play", "client_id":
+        "", "link": "http://bit.ly/xbIT6Hc"}, {"archived": false, "user_ts": 1380219393,
+        "title": "Example: Find Shows/Bands", "created_at": 1380219393, "modified_at":
+        1380220744, "private": true, "aggregate_link": "http://bit.ly/xdMfgX2", "long_url":
+        "http://example.com/bands?station_id=101835&short_url=http://bit.ly/xbIT6Hc#play",
+        "client_id": "", "link": "http://bit.ly/xdMfgGP"}, {"archived": false, "user_ts":
+        1380218952, "title": "Example: Find Shows/Bands", "created_at": 1380218952,
+        "modified_at": 1380219492, "private": true, "aggregate_link": "http://bit.ly/xbISbXi",
+        "long_url": "http://example.com/bands?station_id=101921#play", "client_id":
+        "", "link": "http://bit.ly/xbISbXh"}, {"keyword_link": "http://bit.ly/xagledreamsradio",
+        "archived": false, "user_ts": 1380218952, "title": "Example: Find Shows/Bands",
+        "created_at": 1380218952, "modified_at": 1380219246, "private": true, "aggregate_link":
+        "http://bit.ly/xdMejy6", "long_url": "http://example.com/bands?station_id=101921&short_url=http://bit.ly/xbISbXh#play",
+        "client_id": "", "link": "http://bit.ly/xdMejy5"}, {"archived": false, "user_ts":
+        1380216040, "title": "Example: Blame Sally", "created_at": 1380216040, "modified_at":
+        1380216941, "private": true, "aggregate_link": "http://bit.ly/xdM8hNV", "long_url":
+        "http://example.com/blame-sally?album_id=2263&short_url=http://bit.ly/xUbwtv#play=2263&album=1",
+        "client_id": "", "link": "http://bit.ly/xdM8hNU"}, {"archived": false, "user_ts":
+        1380214133, "title": "Example: Plants and Animals", "created_at": 1380214133,
+        "modified_at": 1380215033, "private": true, "aggregate_link": "http://bit.ly/xdM44tE",
+        "long_url": "http://example.com/plants-and-animals?album_id=3374&track=0#play=3374&track=0",
+        "client_id": "", "link": "http://bit.ly/xdM44tD"}, {"archived": false, "user_ts":
+        1380214133, "title": "Example: Plants and Animals", "created_at": 1380214133,
+        "modified_at": 1380215033, "private": true, "aggregate_link": "http://bit.ly/xbIH5kT",
+        "long_url": "http://example.com/plants-and-animals?album_id=3374&track=0&short_url=http://bit.ly/xdM44tD#play=3374&track=0",
+        "client_id": "", "link": "http://bit.ly/xbIH5kS"}, {"archived": false, "user_ts":
+        1380214080, "title": "Example: SHEL", "created_at": 1380214080, "modified_at":
+        1380214980, "private": true, "aggregate_link": "http://bit.ly/xbIGT5i", "long_url":
+        "http://example.com/shel?album_id=5945&track=0&short_url=http://bit.ly/xdM3Wuf#play=5945&track=0",
+        "client_id": "", "link": "http://bit.ly/xbIGT5h"}, {"archived": false, "user_ts":
+        1380214079, "title": "Example: SHEL", "created_at": 1380214079, "modified_at":
+        1380215430, "private": true, "aggregate_link": "http://bit.ly/xdM3Wug", "long_url":
+        "http://example.com/shel?album_id=5945&track=0#play=5945&track=0", "client_id":
+        "", "link": "http://bit.ly/xdM3Wuf"}, {"archived": false, "user_ts": 1380213297,
+        "title": "Example: Find Shows/Bands", "created_at": 1380213297, "modified_at":
+        1380214648, "private": true, "aggregate_link": "http://bit.ly/xdM2Azv", "long_url":
+        "http://example.com/bands?station_id=101915#play", "client_id": "", "link":
+        "http://bit.ly/xdM2Azu"}, {"archived": false, "user_ts": 1380213297, "title":
+        "Example: Find Shows/Bands", "created_at": 1380213297, "modified_at": 1380214198,
+        "private": true, "aggregate_link": "http://bit.ly/xbIEVBW", "long_url": "http://example.com/bands?station_id=101915&short_url=http://bit.ly/xdM2Azu#play",
+        "client_id": "", "link": "http://bit.ly/xbIEVBV"}, {"archived": false, "user_ts":
+        1380213058, "title": "Example: Find Shows/Bands", "created_at": 1380213058,
+        "modified_at": 1380214409, "private": true, "aggregate_link": "http://bit.ly/xdM2708",
+        "long_url": "http://example.com/bands?station_id=94066&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=152#play",
+        "client_id": "", "link": "http://bit.ly/xdM26JV"}, {"archived": false, "user_ts":
+        1380213058, "title": "Example: Find Shows/Bands", "created_at": 1380213058,
+        "modified_at": 1380214409, "private": true, "aggregate_link": "http://bit.ly/xbIEnvL",
+        "long_url": "http://example.com/bands?station_id=94066&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=152&short_url=http://bit.ly/xdM26JV#play",
+        "client_id": "", "link": "http://bit.ly/xbIEnvK"}, {"archived": false, "user_ts":
+        1380209744, "title": "Example: Find Shows/Bands", "created_at": 1380209744,
+        "modified_at": 1380210284, "private": true, "aggregate_link": "http://bit.ly/xdLV3Rd",
+        "long_url": "http://example.com/bands?station_id=101912&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=48.856614&band_search[location]=Paris,+IDF,+FR&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=2.352222&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/xdLV3Rc"}, {"archived": false, "user_ts":
+        1380209744, "title": "Example: Find Shows/Bands", "created_at": 1380209744,
+        "modified_at": 1380210284, "private": true, "aggregate_link": "http://bit.ly/xbIvYZb",
+        "long_url": "http://example.com/bands?station_id=101912&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=48.856614&band_search[location]=Paris,+IDF,+FR&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=2.352222&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/xdLV3Rc#play",
+        "client_id": "", "link": "http://bit.ly/xbIvYZa"}, {"archived": false, "user_ts":
+        1380209671, "title": "Example: Sly & Robbie", "created_at": 1380209671,
+        "modified_at": 1380210571, "private": true, "aggregate_link": "http://bit.ly/xdLUWoK",
+        "long_url": "http://example.com/sly-robbie?band=25707#play=25707", "client_id":
+        "", "link": "http://bit.ly/xdLUWoJ"}, {"archived": false, "user_ts": 1380209671,
+        "title": "Example: Sly & Robbie", "created_at": 1380209671, "modified_at":
+        1380210211, "private": true, "aggregate_link": "http://bit.ly/xbIvP8m", "long_url":
+        "http://example.com/sly-robbie?band=25707&short_url=http://bit.ly/xdLUWoJ#play=25707",
+        "client_id": "", "link": "http://bit.ly/xbIvP8l"}, {"archived": false, "user_ts":
+        1380191534, "title": "Example: Find Shows/Bands", "created_at": 1380191534,
+        "modified_at": 1380191624, "private": true, "aggregate_link": "http://bit.ly/x8raeOr",
+        "long_url": "http://example.com/bands?station_id=101910&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=54&band_search[location]=North+Yorkshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-2&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=18055,+98803,+100894#play",
+        "client_id": "", "link": "http://bit.ly/x8raeOq"}, {"archived": false, "user_ts":
+        1380191534, "title": "Example: Find Shows/Bands", "created_at": 1380191534,
+        "modified_at": 1380191624, "private": true, "aggregate_link": "http://bit.ly/x9IaW79",
+        "long_url": "http://example.com/bands?station_id=101910&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=54&band_search[location]=North+Yorkshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-2&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=18055,+98803,+100894&short_url=http://bit.ly/x8raeOq#play",
+        "client_id": "", "link": "http://bit.ly/x9IaW78"}, {"archived": false, "user_ts":
+        1380189356, "title": "Example: Find Shows/Bands", "created_at": 1380189356,
+        "modified_at": 1380189446, "private": true, "aggregate_link": "http://bit.ly/x8r6ywd",
+        "long_url": "http://example.com/bands?station_id=101909&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=54&band_search[location]=North+Yorkshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-2&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17069,+102591#play",
+        "client_id": "", "link": "http://bit.ly/x8r6ywc"}, {"archived": false, "user_ts":
+        1380189356, "title": "Example: Find Shows/Bands", "created_at": 1380189356,
+        "modified_at": 1380189446, "private": true, "aggregate_link": "http://bit.ly/x9I3KrM",
+        "long_url": "http://example.com/bands?station_id=101909&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=54&band_search[location]=North+Yorkshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-2&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17069,+102591&short_url=http://bit.ly/x8r6ywc#play",
+        "client_id": "", "link": "http://bit.ly/x9I3KrL"}, {"archived": false, "user_ts":
+        1380188971, "title": "Example: Find Shows/Bands", "created_at": 1380188971,
+        "modified_at": 1380189061, "private": true, "aggregate_link": "http://bit.ly/x8r60WV",
+        "long_url": "http://example.com/bands?station_id=101908&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=54&band_search[location]=North+Yorkshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-2&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17063,+100889#play",
+        "client_id": "", "link": "http://bit.ly/x8r60WU"}, {"archived": false, "user_ts":
+        1380188971, "title": "Example: Find Shows/Bands", "created_at": 1380188971,
+        "modified_at": 1380189061, "private": true, "aggregate_link": "http://bit.ly/x9I2DZ6",
+        "long_url": "http://example.com/bands?station_id=101908&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=54&band_search[location]=North+Yorkshire,+UK&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-2&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=17063,+100889&short_url=http://bit.ly/x8r60WU#play",
+        "client_id": "", "link": "http://bit.ly/x9I2DZ4"}, {"archived": false, "user_ts":
+        1380169706, "title": "Example: Tegan and Sara", "created_at": 1380169706,
+        "modified_at": 1380169796, "private": true, "aggregate_link": "http://bit.ly/x6B86io",
+        "long_url": "http://example.com/s/387cf64", "client_id": "", "link": "http://bit.ly/x6B86in"},
+        {"archived": false, "user_ts": 1380163000, "title": "Example: Whodini-Blak",
+        "created_at": 1380163000, "modified_at": 1380163090, "private": true, "aggregate_link":
+        "http://bit.ly/xbdqBCa", "long_url": "http://example.com/whodiniblak?band=2704&short_url=http://bit.ly/xh2SFFq#play=2704",
+        "client_id": "", "link": "http://bit.ly/xbdqBC9"}, {"archived": false, "user_ts":
+        1380163000, "title": "Example: Whodini-Blak", "created_at": 1380163000,
+        "modified_at": 1380163090, "private": true, "aggregate_link": "http://bit.ly/xh2SFFr",
+        "long_url": "http://example.com/whodiniblak?band=2704#play=2704", "client_id":
+        "", "link": "http://bit.ly/xh2SFFq"}, {"archived": false, "user_ts": 1380162979,
+        "title": "Example: Whodini-Blak", "created_at": 1380162979, "modified_at":
+        1380163069, "private": true, "aggregate_link": "http://bit.ly/xbdqxCu", "long_url":
+        "http://example.com/whodiniblak?album_id=4201&track=13&short_url=http://bit.ly/xh2SCtw#play=4201&track=13",
+        "client_id": "", "link": "http://bit.ly/xbdqxCt"}, {"archived": false, "user_ts":
+        1380162979, "title": "Example: Whodini-Blak", "created_at": 1380162979,
+        "modified_at": 1380163069, "private": true, "aggregate_link": "http://bit.ly/xh2SCtx",
+        "long_url": "http://example.com/whodiniblak?album_id=4201&track=13#play=4201&track=13",
+        "client_id": "", "link": "http://bit.ly/xh2SCtw"}, {"archived": false, "user_ts":
+        1380156236, "title": "Example: Find Shows/Bands", "created_at": 1380156236,
+        "modified_at": 1380156327, "private": true, "aggregate_link": "http://bit.ly/x9AE4hU",
+        "long_url": "http://example.com/bands?band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=41818#play",
+        "client_id": "", "link": "http://bit.ly/x9AE4hT"}, {"archived": false, "user_ts":
+        1380156236, "title": "Example: Find Shows/Bands", "created_at": 1380156236,
+        "modified_at": 1380156327, "private": true, "aggregate_link": "http://bit.ly/xbde8OI",
+        "long_url": "http://example.com/bands?band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=41818&short_url=http://bit.ly/x9AE4hT#play",
+        "client_id": "", "link": "http://bit.ly/xbde8OH"}, {"archived": false, "user_ts":
+        1380152733, "title": "Example: Dylan Shearer", "created_at": 1380152733,
+        "modified_at": 1380152823, "private": true, "aggregate_link": "http://bit.ly/x91eosE",
+        "long_url": "http://example.com/s/4f0c923", "client_id": "", "link": "http://bit.ly/x91eosD"},
+        {"archived": false, "user_ts": 1380152689, "title": "Example: French Cassettes",
+        "created_at": 1380152689, "modified_at": 1380152779, "private": true, "aggregate_link":
+        "http://bit.ly/x71Vm8P", "long_url": "http://example.com/s/5f6143e", "client_id":
+        "", "link": "http://bit.ly/x71Vm8O"}, {"archived": false, "user_ts": 1380151724,
+        "title": "Example: Yassou Benedict", "created_at": 1380151724, "modified_at":
+        1380151814, "private": true, "aggregate_link": "http://bit.ly/x91bu79", "long_url":
+        "http://example.com/s/da4b242", "client_id": "", "link": "http://bit.ly/x91bu78"},
+        {"archived": false, "user_ts": 1380151029, "title": "Example: PAPA", "created_at":
+        1380151029, "modified_at": 1380151119, "private": true, "aggregate_link":
+        "http://bit.ly/x71R8hk", "long_url": "http://example.com/s/83bb354", "client_id":
+        "", "link": "http://bit.ly/x71R8hj"}, {"archived": false, "user_ts": 1380150887,
+        "title": "Example: WeBe3", "created_at": 1380150887, "modified_at": 1380150978,
+        "private": true, "aggregate_link": "http://bit.ly/x71QLU0", "long_url": "http://example.com/s/f328bdd",
+        "client_id": "", "link": "http://bit.ly/x71QLTZ"}, {"archived": false, "user_ts":
+        1380150582, "title": "Example: French Cassettes", "created_at": 1380150582,
+        "modified_at": 1380150673, "private": true, "aggregate_link": "http://bit.ly/x71PZX5",
+        "long_url": "http://example.com/s/18ebbc6", "client_id": "", "link": "http://bit.ly/x71PZX4"},
+        {"archived": false, "user_ts": 1380150468, "title": "Example: Jordie Lane",
+        "created_at": 1380150468, "modified_at": 1380150559, "private": true, "aggregate_link":
+        "http://bit.ly/x917FyW", "long_url": "http://example.com/s/1a5ce77", "client_id":
+        "", "link": "http://bit.ly/x917FyV"}, {"archived": false, "user_ts": 1380150404,
+        "title": "Example: Scott Cook", "created_at": 1380150404, "modified_at":
+        1380150494, "private": true, "aggregate_link": "http://bit.ly/x71PwUT", "long_url":
+        "http://example.com/s/f9cec7e", "client_id": "", "link": "http://bit.ly/x71PwUS"},
+        {"archived": false, "user_ts": 1380150271, "title": "Example: The Toy Hearts",
+        "created_at": 1380150271, "modified_at": 1380150362, "private": true, "aggregate_link":
+        "http://bit.ly/x71Pa0G", "long_url": "http://example.com/s/607271b", "client_id":
+        "", "link": "http://bit.ly/x71Pa0F"}, {"archived": false, "user_ts": 1380150158,
+        "title": "Example: Robert Earl Keen", "created_at": 1380150158, "modified_at":
+        1380150246, "private": true, "aggregate_link": "http://bit.ly/x916C1O", "long_url":
+        "http://example.com/s/7a45573", "client_id": "", "link": "http://bit.ly/x916C1N"},
+        {"archived": false, "user_ts": 1380149726, "title": "Example: UFOMAMMUT",
+        "created_at": 1380149726, "modified_at": 1380149816, "private": true, "aggregate_link":
+        "http://bit.ly/x915fjI", "long_url": "http://example.com/s/d95c8b5",
+        "client_id": "", "link": "http://bit.ly/x915fjH"}, {"archived": false, "user_ts":
+        1380149483, "title": "Example: Thea Hopkins", "created_at": 1380149483,
+        "modified_at": 1380149573, "private": true, "aggregate_link": "http://bit.ly/x914vex",
+        "long_url": "http://example.com/s/b4683a2", "client_id": "", "link": "http://bit.ly/x914vew"},
+        {"archived": false, "user_ts": 1380149178, "title": "Example: Moscow Drug
+        Club", "created_at": 1380149178, "modified_at": 1380149269, "private": true,
+        "aggregate_link": "http://bit.ly/x71MCzz", "long_url": "http://example.com/s/b91e972",
+        "client_id": "", "link": "http://bit.ly/x71MCzy"}, {"archived": false, "user_ts":
+        1380149054, "title": "Example: Chris Trapper", "created_at": 1380149054,
+        "modified_at": 1380149144, "private": true, "aggregate_link": "http://bit.ly/x9139Ak",
+        "long_url": "http://example.com/s/51b992e", "client_id": "", "link": "http://bit.ly/x9139Aj"},
+        {"archived": false, "user_ts": 1380148937, "title": "Example: Nathaniel
+        Rateliff", "created_at": 1380148937, "modified_at": 1380149027, "private":
+        true, "aggregate_link": "http://bit.ly/x71M38U", "long_url": "http://example.com/s/79ecbf5",
+        "client_id": "", "link": "http://bit.ly/x71M38T"}, {"archived": false, "user_ts":
+        1380148807, "title": "Example: Vetiver", "created_at": 1380148807, "modified_at":
+        1380148897, "private": true, "aggregate_link": "http://bit.ly/x912or9", "long_url":
+        "http://example.com/s/7969abe", "client_id": "", "link": "http://bit.ly/x912or8"},
+        {"archived": false, "user_ts": 1380148719, "title": "Example: Nathaniel
+        Rateliff", "created_at": 1380148719, "modified_at": 1380148809, "private":
+        true, "aggregate_link": "http://bit.ly/x71LADG", "long_url": "http://example.com/s/fd12ad3",
+        "client_id": "", "link": "http://bit.ly/x71LADF"}, {"archived": false, "user_ts":
+        1380148691, "title": "Example: Neko Case", "created_at": 1380148691, "modified_at":
+        1380148781, "private": true, "aggregate_link": "http://bit.ly/x9121Nd", "long_url":
+        "http://example.com/s/c1a91c0", "client_id": "", "link": "http://bit.ly/x9121Nc"},
+        {"archived": false, "user_ts": 1380148547, "title": "Example: Neko Case",
+        "created_at": 1380148547, "modified_at": 1380148637, "private": true, "aggregate_link":
+        "http://bit.ly/xPOZXV", "long_url": "http://example.com/s/14457b2", "client_id":
+        "", "link": "http://bit.ly/x71Lhsn"}, {"archived": false, "user_ts": 1380145955,
+        "title": "Example: Find Shows/Bands", "created_at": 1380145955, "modified_at":
+        1380146045, "private": true, "aggregate_link": "http://bit.ly/x8q931M", "long_url":
+        "http://example.com/bands?station_id=101899#play", "client_id": "", "link":
+        "http://bit.ly/x8q931L"}, {"archived": false, "user_ts": 1380145955, "title":
+        "Example: Find Shows/Bands", "created_at": 1380145955, "modified_at": 1380146046,
+        "private": true, "aggregate_link": "http://bit.ly/x8qmMnq", "long_url": "http://example.com/bands?station_id=101899&short_url=http://bit.ly/x8q931L#play",
+        "client_id": "", "link": "http://bit.ly/x8qmMnp"}, {"archived": false, "user_ts":
+        1380145080, "title": "Example: Robert Earl Keen", "created_at": 1380145080,
+        "modified_at": 1380145170, "private": true, "aggregate_link": "http://bit.ly/x8ql5WZ",
+        "long_url": "http://example.com/robert-earl-keen?album_id=26158&track=0&short_url=http://bit.ly/x8q7IrC#play=26158&track=0",
+        "client_id": "", "link": "http://bit.ly/x8ql5WY"}, {"archived": false, "user_ts":
+        1380145080, "title": "Example: Robert Earl Keen", "created_at": 1380145080,
+        "modified_at": 1380145170, "private": true, "aggregate_link": "http://bit.ly/x8q7IrD",
+        "long_url": "http://example.com/robert-earl-keen?album_id=26158&track=0#play=26158&track=0",
+        "client_id": "", "link": "http://bit.ly/x8q7IrC"}, {"archived": false, "user_ts":
+        1380144993, "title": "Example: Robert Earl Keen", "created_at": 1380144993,
+        "modified_at": 1380145083, "private": true, "aggregate_link": "http://bit.ly/x8q7BMO",
+        "long_url": "http://example.com/robert-earl-keen?band=17820#play=17820",
+        "client_id": "", "link": "http://bit.ly/x8q7BMN"}, {"archived": false, "user_ts":
+        1380144993, "title": "Example: Robert Earl Keen", "created_at": 1380144993,
+        "modified_at": 1380145083, "private": true, "aggregate_link": "http://bit.ly/x8qkXXD",
+        "long_url": "http://example.com/robert-earl-keen?band=17820&short_url=http://bit.ly/x8q7BMN#play=17820",
+        "client_id": "", "link": "http://bit.ly/x8qkXXC"}], "result_count": 300},
+        "status_txt": "OK"}'
+    http_version: 
+  recorded_at: Mon, 30 Sep 2013 19:17:13 GMT
+- request:
+    method: get
+    uri: https://api-ssl.bitly.com/v3/user/link_history?access_token=asdlkfjasd134i1ojfasldkrj234aslkdjfq3249&limit=100&offset=200
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 30 Sep 2013 19:17:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44460'
+      Etag:
+      - '"f1df3a5da0517d8a30fe83998eb902ba86008cca"'
+    body:
+      encoding: UTF-8
+      string: '{"status_code": 200, "data": {"link_history": [{"archived": false,
+        "user_ts": 1380143398, "title": "Example: Find Shows/Bands", "created_at":
+        1380143398, "modified_at": 1380143488, "private": true, "aggregate_link":
+        "http://bit.ly/x8qi356", "long_url": "http://example.com/bands?station_id=101537&short_url=http://bit.ly/x8q4LHB#play",
+        "client_id": "", "link": "http://bit.ly/x8qi355"}, {"archived": false, "user_ts":
+        1380143398, "title": "Example: Find Shows/Bands", "created_at": 1380143398,
+        "modified_at": 1380143488, "private": true, "aggregate_link": "http://bit.ly/x8q4LHC",
+        "long_url": "http://example.com/bands?station_id=101537#play", "client_id":
+        "", "link": "http://bit.ly/x8q4LHB"}, {"archived": false, "user_ts": 1380141808,
+        "title": "Example: Find Shows/Bands", "created_at": 1380141808, "modified_at":
+        1380141898, "private": true, "aggregate_link": "http://bit.ly/x8q1U1o", "long_url":
+        "http://example.com/bands?station_id=94080&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=72720#play",
+        "client_id": "", "link": "http://bit.ly/x8q1U1n"}, {"archived": false, "user_ts":
+        1380141808, "title": "Example: Find Shows/Bands", "created_at": 1380141808,
+        "modified_at": 1380141898, "private": true, "aggregate_link": "http://bit.ly/x8qf3Wi",
+        "long_url": "http://example.com/bands?station_id=94080&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=72720&short_url=http://bit.ly/x8q1U1n#play",
+        "client_id": "", "link": "http://bit.ly/x8qf3Wh"}, {"archived": false, "user_ts":
+        1380140036, "title": "Example: Find Shows/Bands", "created_at": 1380140036,
+        "modified_at": 1380140126, "private": true, "aggregate_link": "http://bit.ly/x8qbwHs",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Americana,Bluegrass,Christian,Classical,Folk,Gospel,Hardcore,Jazz,Metal,Singer-Songwriter&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=18672#play",
+        "client_id": "", "link": "http://bit.ly/x8qbwHr"}, {"archived": false, "user_ts":
+        1380140036, "title": "Example: Find Shows/Bands", "created_at": 1380140036,
+        "modified_at": 1380140126, "private": true, "aggregate_link": "http://bit.ly/x8pYpbk",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Americana,Bluegrass,Christian,Classical,Folk,Gospel,Hardcore,Jazz,Metal,Singer-Songwriter&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=18672&short_url=http://bit.ly/x8qbwHr#play",
+        "client_id": "", "link": "http://bit.ly/x8pYpbj"}, {"archived": false, "user_ts":
+        1380139777, "title": "Example: Find Shows/Bands", "created_at": 1380139777,
+        "modified_at": 1380140048, "private": true, "aggregate_link": "http://bit.ly/x8qagnU",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Americana,Bluegrass,Christian,Classical,Folk,Gospel,Hardcore,Jazz,Metal,Singer-Songwriter&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=537#play",
+        "client_id": "", "link": "http://bit.ly/x8qagnT"}, {"archived": false, "user_ts":
+        1380139777, "title": "Example: Find Shows/Bands", "created_at": 1380139777,
+        "modified_at": 1380139867, "private": true, "aggregate_link": "http://bit.ly/x8pXMhS",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Americana,Bluegrass,Christian,Classical,Folk,Gospel,Hardcore,Jazz,Metal,Singer-Songwriter&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=537&short_url=http://bit.ly/x8qagnT#play",
+        "client_id": "", "link": "http://bit.ly/x8pXMhR"}, {"archived": false, "user_ts":
+        1380139592, "title": "Example: Bingo Players", "created_at": 1380139592,
+        "modified_at": 1380139682, "private": true, "aggregate_link": "http://bit.ly/x8pXlUW",
+        "long_url": "http://example.com/bingo-players?band=33553&short_url=http://bit.ly/x8q9QO9#play=33553",
+        "client_id": "", "link": "http://bit.ly/x8pXlUV"}, {"archived": false, "user_ts":
+        1380139592, "title": "Example: Bingo Players", "created_at": 1380139592,
+        "modified_at": 1380139863, "private": true, "aggregate_link": "http://bit.ly/x8q9QOa",
+        "long_url": "http://example.com/bingo-players?band=33553#play=33553", "client_id":
+        "", "link": "http://bit.ly/x8q9QO9"}, {"archived": false, "user_ts": 1380136572,
+        "title": "Example: Find Shows/Bands", "created_at": 1380136572, "modified_at":
+        1380137112, "private": true, "aggregate_link": "http://bit.ly/x8q2Fpp", "long_url":
+        "https://example.com/bands?station_id=94207&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=33#play",
+        "client_id": "", "link": "http://bit.ly/x8q2Fpo"}, {"archived": false, "user_ts":
+        1380136572, "title": "Example: Find Shows/Bands", "created_at": 1380136572,
+        "modified_at": 1380137473, "private": true, "aggregate_link": "http://bit.ly/x8pQrPw",
+        "long_url": "https://example.com/bands?station_id=94207&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=33&short_url=http://bit.ly/x8q2Fpo#play",
+        "client_id": "", "link": "http://bit.ly/x8pQrPv"}, {"keyword_link": "http://bit.ly/xutlawroadshowradio",
+        "archived": false, "user_ts": 1380136475, "title": "Example: Find Shows/Bands",
+        "created_at": 1380136475, "modified_at": 1380137129, "private": true, "aggregate_link":
+        "http://bit.ly/x8pQdIa", "long_url": "http://example.com/bands?station_id=101893&short_url=http://bit.ly/x8q2uKw#play",
+        "client_id": "", "link": "http://bit.ly/x8pQdI9"}, {"archived": false, "user_ts":
+        1380136473, "title": "Example: Find Shows/Bands", "created_at": 1380136473,
+        "modified_at": 1380137013, "private": true, "aggregate_link": "http://bit.ly/x8q2uKx",
+        "long_url": "http://example.com/bands?station_id=101893#play", "client_id":
+        "", "link": "http://bit.ly/x8q2uKw"}, {"archived": false, "user_ts": 1380134606,
+        "title": "Example: Brooke Annibale", "created_at": 1380134606, "modified_at":
+        1380134696, "private": true, "aggregate_link": "http://bit.ly/xbcuhE7", "long_url":
+        "http://example.com/brooke-annibale?band=14445&short_url=http://bit.ly/x5tBrMs#play=14445",
+        "client_id": "", "link": "http://bit.ly/xbcuhE6"}, {"archived": false, "user_ts":
+        1380134606, "title": "Example: Brooke Annibale", "created_at": 1380134606,
+        "modified_at": 1380135506, "private": true, "aggregate_link": "http://bit.ly/x5tBrMt",
+        "long_url": "http://example.com/brooke-annibale?band=14445#play=14445",
+        "client_id": "", "link": "http://bit.ly/x5tBrMs"}, {"archived": false, "user_ts":
+        1380130944, "title": "Example: Find Shows/Bands", "created_at": 1380130944,
+        "modified_at": 1380132294, "private": true, "aggregate_link": "http://bit.ly/xbcmNAU",
+        "long_url": "http://example.com/bands?station_id=101890&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=58306#play",
+        "client_id": "", "link": "http://bit.ly/xbcmNkH"}, {"archived": false, "user_ts":
+        1380130944, "title": "Example: Find Shows/Bands", "created_at": 1380130944,
+        "modified_at": 1380131844, "private": true, "aggregate_link": "http://bit.ly/x5tu6wj",
+        "long_url": "http://example.com/bands?station_id=101890&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=58306&short_url=http://bit.ly/xbcmNkH#play",
+        "client_id": "", "link": "http://bit.ly/x5tu6wi"}, {"archived": false, "user_ts":
+        1380128839, "title": "Example: Find Shows/Bands", "created_at": 1380128839,
+        "modified_at": 1380128930, "private": true, "aggregate_link": "http://bit.ly/xbciwOa",
+        "long_url": "http://example.com/bands?station_id=96932&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1198&short_url=http://bit.ly/x5tq1YW#play",
+        "client_id": "", "link": "http://bit.ly/xbciwO9"}, {"archived": false, "user_ts":
+        1380128839, "title": "Example: Find Shows/Bands", "created_at": 1380128839,
+        "modified_at": 1380130190, "private": true, "aggregate_link": "http://bit.ly/x5tq1YX",
+        "long_url": "http://example.com/bands?station_id=96932&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1198#play",
+        "client_id": "", "link": "http://bit.ly/x5tq1YW"}, {"archived": false, "user_ts":
+        1380128805, "title": "Example: Find Shows/Bands", "created_at": 1380128805,
+        "modified_at": 1380129705, "private": true, "aggregate_link": "http://bit.ly/x5tpXbN",
+        "long_url": "http://example.com/bands?station_id=94837&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1332#play",
+        "client_id": "", "link": "http://bit.ly/x5tpXbM"}, {"archived": false, "user_ts":
+        1380128805, "title": "Example: Find Shows/Bands", "created_at": 1380128805,
+        "modified_at": 1380130155, "private": true, "aggregate_link": "http://bit.ly/xbciplJ",
+        "long_url": "http://example.com/bands?station_id=94837&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=1332&short_url=http://bit.ly/x5tpXbM#play",
+        "client_id": "", "link": "http://bit.ly/xbciplI"}, {"archived": false, "user_ts":
+        1380128746, "title": "Example: Find Shows/Bands", "created_at": 1380128746,
+        "modified_at": 1380129646, "private": true, "aggregate_link": "http://bit.ly/x5tpOVM",
+        "long_url": "http://example.com/bands?station_id=94131&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=55163#play",
+        "client_id": "", "link": "http://bit.ly/x5tpOVL"}, {"archived": false, "user_ts":
+        1380128746, "title": "Example: Find Shows/Bands", "created_at": 1380128746,
+        "modified_at": 1380129646, "private": true, "aggregate_link": "http://bit.ly/xbcifux",
+        "long_url": "http://example.com/bands?station_id=94131&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=55163&short_url=http://bit.ly/x5tpOVL#play",
+        "client_id": "", "link": "http://bit.ly/xbcifuw"}, {"archived": false, "user_ts":
+        1380122732, "title": "Example: Find Shows/Bands", "created_at": 1380122732,
+        "modified_at": 1380123633, "private": true, "aggregate_link": "http://bit.ly/x6IGqch",
+        "long_url": "http://example.com/bands?station_id=101884&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=41.499495&band_search[location]=Cleveland,+OH,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-81.695409&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x6IGqcg"}, {"archived": false, "user_ts":
+        1380122732, "title": "Example: Find Shows/Bands", "created_at": 1380122732,
+        "modified_at": 1380124083, "private": true, "aggregate_link": "http://bit.ly/x5TSn28",
+        "long_url": "http://example.com/bands?station_id=101884&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=41.499495&band_search[location]=Cleveland,+OH,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-81.695409&band_search[radius]=16&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x6IGqcg#play",
+        "client_id": "", "link": "http://bit.ly/x5TSmLV"}, {"archived": false, "user_ts":
+        1380091196, "title": "Example: of Montreal", "created_at": 1380091196, "modified_at":
+        1380091286, "private": true, "aggregate_link": "http://bit.ly/x8oKws3", "long_url":
+        "http://example.com/s/b29ac96", "client_id": "", "link": "http://bit.ly/x8oKws2"},
+        {"archived": false, "user_ts": 1380082621, "title": "Example: Public Service
+        Broadcasting", "created_at": 1380082621, "modified_at": 1380082711, "private":
+        true, "aggregate_link": "http://bit.ly/x8ojByj", "long_url": "http://example.com/s/944333e",
+        "client_id": "", "link": "http://bit.ly/x8ojByi"}, {"archived": false, "user_ts":
+        1380065650, "title": "Example: Lindsey Saunders", "created_at": 1380065650,
+        "modified_at": 1380065740, "private": true, "aggregate_link": "http://bit.ly/x9xvRLa",
+        "long_url": "http://example.com/lindsey-saunders?album_id=27934&short_url=http://bit.ly/xbaw50i#play=27934&album=1",
+        "client_id": "", "link": "http://bit.ly/x9xvRuX"}, {"archived": false, "user_ts":
+        1380065650, "title": "Example: Lindsey Saunders", "created_at": 1380065650,
+        "modified_at": 1380065740, "private": true, "aggregate_link": "http://bit.ly/xbaw50j",
+        "long_url": "http://example.com/lindsey-saunders?album_id=27934#play=27934&album=1",
+        "client_id": "", "link": "http://bit.ly/xbaw50i"}, {"archived": false, "user_ts":
+        1380065622, "title": "Example: Public Service Broadcasting", "created_at":
+        1380065622, "modified_at": 1380065712, "private": true, "aggregate_link":
+        "http://bit.ly/xbaw3pt", "long_url": "http://example.com/public-service-broadcasting?album_id=11617&track=0#play=11617&track=0",
+        "client_id": "", "link": "http://bit.ly/xbaw3ps"}, {"archived": false, "user_ts":
+        1380065622, "title": "Example: Public Service Broadcasting", "created_at":
+        1380065622, "modified_at": 1380065712, "private": true, "aggregate_link":
+        "http://bit.ly/x9xvPDh", "long_url": "http://example.com/public-service-broadcasting?album_id=11617&track=0&short_url=http://bit.ly/xbaw3ps#play=11617&track=0",
+        "client_id": "", "link": "http://bit.ly/x9xvPDg"}, {"archived": false, "user_ts":
+        1380064322, "title": "Example: Forrest Day", "created_at": 1380064322, "modified_at":
+        1380064412, "private": true, "aggregate_link": "http://bit.ly/xbatS5d", "long_url":
+        "http://example.com/forrest-day?band=11#play=11", "client_id": "",
+        "link": "http://bit.ly/xbatS5c"}, {"archived": false, "user_ts": 1380064322,
+        "title": "Example: Forrest Day", "created_at": 1380064322, "modified_at":
+        1380064412, "private": true, "aggregate_link": "http://bit.ly/x9xt3Ob", "long_url":
+        "http://example.com/forrest-day?band=11&short_url=http://bit.ly/xbatS5c#play=11",
+        "client_id": "", "link": "http://bit.ly/x9xt3Oa"}, {"archived": false, "user_ts":
+        1380064045, "title": "Example: John Batdorf", "created_at": 1380064045,
+        "modified_at": 1380064154, "private": true, "aggregate_link": "http://bit.ly/x9xsrIo",
+        "long_url": "http://example.com/john-batdorf?album_id=31934#play=31934&album=1",
+        "client_id": "", "link": "http://bit.ly/x9xsrIn"}, {"archived": false, "user_ts":
+        1380064045, "title": "Example: John Batdorf", "created_at": 1380064045,
+        "modified_at": 1380064135, "private": true, "aggregate_link": "http://bit.ly/xbatd3y",
+        "long_url": "http://example.com/john-batdorf?album_id=31934&short_url=http://bit.ly/x9xsrIn#play=31934&album=1",
+        "client_id": "", "link": "http://bit.ly/xbatd3x"}, {"archived": false, "user_ts":
+        1380063623, "title": "Example: Cowboy Mouth", "created_at": 1380063623,
+        "modified_at": 1380063703, "private": true, "aggregate_link": "http://bit.ly/x9xrvnt",
+        "long_url": "http://example.com/s/6760e81", "client_id": "", "link": "http://bit.ly/x9xrvns"},
+        {"archived": false, "user_ts": 1380063337, "title": "Example: Public Service
+        Broadcasting", "created_at": 1380063337, "modified_at": 1380063427, "private":
+        true, "aggregate_link": "http://bit.ly/xbarRpu", "long_url": "http://example.com/public-service-broadcasting?album_id=11617&short_url=http://bit.ly/x9xqUCb#play=11617&album=1",
+        "client_id": "", "link": "http://bit.ly/xbarRpt"}, {"archived": false, "user_ts":
+        1380063337, "title": "Example: Public Service Broadcasting", "created_at":
+        1380063337, "modified_at": 1380063427, "private": true, "aggregate_link":
+        "http://bit.ly/x9xqUCd", "long_url": "http://example.com/public-service-broadcasting?album_id=11617#play=11617&album=1",
+        "client_id": "", "link": "http://bit.ly/x9xqUCb"}, {"archived": false, "user_ts":
+        1380063215, "title": "Example: Public Service Broadcasting", "created_at":
+        1380063215, "modified_at": 1380063305, "private": true, "aggregate_link":
+        "http://bit.ly/xbarBHd", "long_url": "http://example.com/public-service-broadcasting?album_id=11617#play=11617&album=1",
+        "client_id": "", "link": "http://bit.ly/xbarBHc"}, {"archived": false, "user_ts":
+        1380063215, "title": "Example: Public Service Broadcasting", "created_at":
+        1380063215, "modified_at": 1380063305, "private": true, "aggregate_link":
+        "http://bit.ly/x9xqFHf", "long_url": "http://example.com/public-service-broadcasting?album_id=11617&short_url=http://bit.ly/xbarBHc#play=11617&album=1",
+        "client_id": "", "link": "http://bit.ly/x9xqFHe"}, {"archived": false, "user_ts":
+        1380062525, "title": "Example: Old Man Luedecke", "created_at": 1380062525,
+        "modified_at": 1380062615, "private": true, "aggregate_link": "http://bit.ly/x9xpdon",
+        "long_url": "http://example.com/old-man-luedecke?album_id=15871&track=0#play=15871&track=0",
+        "client_id": "", "link": "http://bit.ly/x9xpdom"}, {"archived": false, "user_ts":
+        1380062525, "title": "Example: Old Man Luedecke", "created_at": 1380062525,
+        "modified_at": 1380062615, "private": true, "aggregate_link": "http://bit.ly/xbaqpn1",
+        "long_url": "http://example.com/old-man-luedecke?album_id=15871&track=0&short_url=http://bit.ly/x9xpdom#play=15871&track=0",
+        "client_id": "", "link": "http://bit.ly/xbaqpn0"}, {"archived": false, "user_ts":
+        1380060212, "title": "Example: Find Shows/Bands", "created_at": 1380060212,
+        "modified_at": 1380060302, "private": true, "aggregate_link": "http://bit.ly/x9xkqTL",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=38.627003&band_search[location]=St.+Louis,+MO,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-90.199404&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/xbam2IT#play",
+        "client_id": "", "link": "http://bit.ly/x9xkqTK"}, {"archived": false, "user_ts":
+        1380060212, "title": "Example: Find Shows/Bands", "created_at": 1380060212,
+        "modified_at": 1380060302, "private": true, "aggregate_link": "http://bit.ly/xbam2Z6",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=38.627003&band_search[location]=St.+Louis,+MO,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-90.199404&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/xbam2IT"}, {"archived": false, "user_ts":
+        1380059288, "title": "Example: Find Shows/Bands", "created_at": 1380059288,
+        "modified_at": 1380059378, "private": true, "aggregate_link": "http://bit.ly/xbak4Z1",
+        "long_url": "http://example.com/bands?station_id=101425#play", "client_id":
+        "", "link": "http://bit.ly/xbak4Z0"}, {"archived": false, "user_ts": 1380059288,
+        "title": "Example: Find Shows/Bands", "created_at": 1380059288, "modified_at":
+        1380059378, "private": true, "aggregate_link": "http://bit.ly/x9xiF9g", "long_url":
+        "http://example.com/bands?station_id=101425&short_url=http://bit.ly/xbak4Z0#play",
+        "client_id": "", "link": "http://bit.ly/x9xiF9f"}, {"archived": false, "user_ts":
+        1380059260, "title": "Example: Find Shows/Bands", "created_at": 1380059260,
+        "modified_at": 1380059350, "private": true, "aggregate_link": "http://bit.ly/x9xiCdz",
+        "long_url": "http://example.com/bands?station_id=101427&short_url=http://bit.ly/xbajYAs#play",
+        "client_id": "", "link": "http://bit.ly/x9xiCdy"}, {"archived": false, "user_ts":
+        1380059260, "title": "Example: Find Shows/Bands", "created_at": 1380059260,
+        "modified_at": 1380059350, "private": true, "aggregate_link": "http://bit.ly/xbajYAt",
+        "long_url": "http://example.com/bands?station_id=101427#play", "client_id":
+        "", "link": "http://bit.ly/xbajYAs"}, {"archived": false, "user_ts": 1380059217,
+        "title": "Example: Find Shows/Bands", "created_at": 1380059217, "modified_at":
+        1380059307, "private": true, "aggregate_link": "http://bit.ly/xbajUAR", "long_url":
+        "http://example.com/bands?station_id=101430#play", "client_id": "", "link":
+        "http://bit.ly/xbajUAQ"}, {"archived": false, "user_ts": 1380059217, "title":
+        "Example: Find Shows/Bands", "created_at": 1380059217, "modified_at": 1380059307,
+        "private": true, "aggregate_link": "http://bit.ly/x9xitGY", "long_url": "http://example.com/bands?station_id=101430&short_url=http://bit.ly/xbajUAQ#play",
+        "client_id": "", "link": "http://bit.ly/x9xitGX"}, {"archived": false, "user_ts":
+        1380059175, "title": "Example: Find Shows/Bands", "created_at": 1380059175,
+        "modified_at": 1380059265, "private": true, "aggregate_link": "http://bit.ly/x9xiqep",
+        "long_url": "http://example.com/bands?station_id=101428&short_url=http://bit.ly/xbajNFn#play",
+        "client_id": "", "link": "http://bit.ly/x9xiqeo"}, {"archived": false, "user_ts":
+        1380059174, "title": "Example: Find Shows/Bands", "created_at": 1380059174,
+        "modified_at": 1380059265, "private": true, "aggregate_link": "http://bit.ly/xbajNFo",
+        "long_url": "http://example.com/bands?station_id=101428#play", "client_id":
+        "", "link": "http://bit.ly/xbajNFn"}, {"archived": false, "user_ts": 1380059079,
+        "title": "Example: Find Shows/Bands", "created_at": 1380059079, "modified_at":
+        1380059170, "private": true, "aggregate_link": "http://bit.ly/xbajASC", "long_url":
+        "http://example.com/bands?station_id=101429#play", "client_id": "", "link":
+        "http://bit.ly/xbajASB"}, {"archived": false, "user_ts": 1380059079, "title":
+        "Example: Find Shows/Bands", "created_at": 1380059079, "modified_at": 1380059170,
+        "private": true, "aggregate_link": "http://bit.ly/x9xi9rL", "long_url": "http://example.com/bands?station_id=101429&short_url=http://bit.ly/xbajASB#play",
+        "client_id": "", "link": "http://bit.ly/x9xi9rK"}, {"archived": false, "user_ts":
+        1380059048, "title": "Example: Find Shows/Bands", "created_at": 1380059048,
+        "modified_at": 1380059139, "private": true, "aggregate_link": "http://bit.ly/x9xi4nY",
+        "long_url": "http://example.com/bands?station_id=101487&short_url=http://bit.ly/xbajyKs#play",
+        "client_id": "", "link": "http://bit.ly/x9xi4nX"}, {"archived": false, "user_ts":
+        1380059048, "title": "Example: Find Shows/Bands", "created_at": 1380059048,
+        "modified_at": 1380059138, "private": true, "aggregate_link": "http://bit.ly/xbajyKt",
+        "long_url": "http://example.com/bands?station_id=101487#play", "client_id":
+        "", "link": "http://bit.ly/xbajyKs"}, {"archived": false, "user_ts": 1380058921,
+        "title": "Example: Find Shows/Bands", "created_at": 1380058921, "modified_at":
+        1380059011, "private": true, "aggregate_link": "http://bit.ly/xbajevg", "long_url":
+        "http://example.com/bands?station_id=101424#play", "client_id": "", "link":
+        "http://bit.ly/xbajevf"}, {"archived": false, "user_ts": 1380058921, "title":
+        "Example: Find Shows/Bands", "created_at": 1380058921, "modified_at": 1380059011,
+        "private": true, "aggregate_link": "http://bit.ly/x9xhOp3", "long_url": "http://example.com/bands?station_id=101424&short_url=http://bit.ly/xbajevf#play",
+        "client_id": "", "link": "http://bit.ly/x9xhOp2"}, {"archived": false, "user_ts":
+        1380058892, "title": "Example: Find Shows/Bands", "created_at": 1380058892,
+        "modified_at": 1380058983, "private": true, "aggregate_link": "http://bit.ly/xbajbQ9",
+        "long_url": "http://example.com/bands?station_id=101433#play", "client_id":
+        "", "link": "http://bit.ly/xbajbQ8"}, {"archived": false, "user_ts": 1380058892,
+        "title": "Example: Find Shows/Bands", "created_at": 1380058892, "modified_at":
+        1380058983, "private": true, "aggregate_link": "http://bit.ly/x9xhMNS", "long_url":
+        "http://example.com/bands?station_id=101433&short_url=http://bit.ly/xbajbQ8#play",
+        "client_id": "", "link": "http://bit.ly/x9xhMNR"}, {"archived": false, "user_ts":
+        1380058859, "title": "Example: Find Shows/Bands", "created_at": 1380058859,
+        "modified_at": 1380058949, "private": true, "aggregate_link": "http://bit.ly/x9xhIxB",
+        "long_url": "http://example.com/bands?station_id=101472&short_url=http://bit.ly/xbaj4DZ#play",
+        "client_id": "", "link": "http://bit.ly/x9xhIxA"}, {"archived": false, "user_ts":
+        1380058859, "title": "Example: Find Shows/Bands", "created_at": 1380058859,
+        "modified_at": 1380058949, "private": true, "aggregate_link": "http://bit.ly/xbaj4E0",
+        "long_url": "http://example.com/bands?station_id=101472#play", "client_id":
+        "", "link": "http://bit.ly/xbaj4DZ"}, {"archived": false, "user_ts": 1380058843,
+        "title": "Example: Find Shows/Bands", "created_at": 1380058843, "modified_at":
+        1380058933, "private": true, "aggregate_link": "http://bit.ly/xbaj5rN", "long_url":
+        "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=39.290385&band_search[location]=Baltimore,+MD,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-76.612189&band_search[radius]=32&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/xbaj5rM"}, {"archived": false, "user_ts":
+        1380058843, "title": "Example: Find Shows/Bands", "created_at": 1380058843,
+        "modified_at": 1380058934, "private": true, "aggregate_link": "http://bit.ly/x9xhHK9",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=39.290385&band_search[location]=Baltimore,+MD,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-76.612189&band_search[radius]=32&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/xbaj5rM#play",
+        "client_id": "", "link": "http://bit.ly/x9xhHK8"}, {"archived": false, "user_ts":
+        1380058657, "title": "Example: Find Shows/Bands", "created_at": 1380058657,
+        "modified_at": 1380058749, "private": true, "aggregate_link": "http://bit.ly/xbaiG8x",
+        "long_url": "http://example.com/bands?station_id=101536#play", "client_id":
+        "", "link": "http://bit.ly/xbaiG8w"}, {"archived": false, "user_ts": 1380058657,
+        "title": "Example: Find Shows/Bands", "created_at": 1380058657, "modified_at":
+        1380058748, "private": true, "aggregate_link": "http://bit.ly/x9xhjLF", "long_url":
+        "http://example.com/bands?station_id=101536&short_url=http://bit.ly/xbaiG8w#play",
+        "client_id": "", "link": "http://bit.ly/x9xhjLE"}, {"archived": false, "user_ts":
+        1380056789, "title": "Example: Find Shows/Bands", "created_at": 1380056789,
+        "modified_at": 1380058292, "private": true, "aggregate_link": "http://bit.ly/x9xdc2l",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Americana,Bluegrass,Comedy,Country,Folk,Singer-Songwriter&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=209#play",
+        "client_id": "", "link": "http://bit.ly/x9xdc2k"}, {"archived": false, "user_ts":
+        1380056789, "title": "Example: Find Shows/Bands", "created_at": 1380056789,
+        "modified_at": 1380056879, "private": true, "aggregate_link": "http://bit.ly/x8nG2DL",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Americana,Bluegrass,Comedy,Country,Folk,Singer-Songwriter&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=209&short_url=http://bit.ly/x9xdc2k#play",
+        "client_id": "", "link": "http://bit.ly/x8nG2DK"}, {"archived": false, "user_ts":
+        1380055488, "title": "Example: smallpools", "created_at": 1380055488, "modified_at":
+        1380055579, "private": true, "aggregate_link": "http://bit.ly/x9x9Hsu", "long_url":
+        "http://example.com/smallpools?band=32915#play=32915", "client_id": "",
+        "link": "http://bit.ly/x9x9Hst"}, {"archived": false, "user_ts": 1380055488,
+        "title": "Example: smallpools", "created_at": 1380055488, "modified_at":
+        1380055579, "private": true, "aggregate_link": "http://bit.ly/xbab1as", "long_url":
+        "http://example.com/smallpools?band=32915&short_url=http://bit.ly/x9x9Hst#play=32915",
+        "client_id": "", "link": "http://bit.ly/xbab1ar"}, {"archived": false, "user_ts":
+        1380054385, "title": "Example: Find Shows/Bands", "created_at": 1380054385,
+        "modified_at": 1380054475, "private": true, "aggregate_link": "http://bit.ly/xba8AEC",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Hardcore,Metal,World&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=599&short_url=http://bit.ly/x9x7nBZ#play",
+        "client_id": "", "link": "http://bit.ly/xba8AEA"}, {"archived": false, "user_ts":
+        1380054384, "title": "Example: Find Shows/Bands", "created_at": 1380054384,
+        "modified_at": 1380054475, "private": true, "aggregate_link": "http://bit.ly/x9x7nC0",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Hardcore,Metal,World&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=599#play",
+        "client_id": "", "link": "http://bit.ly/x9x7nBZ"}, {"archived": false, "user_ts":
+        1380054318, "title": "Example: Find Shows/Bands", "created_at": 1380054318,
+        "modified_at": 1380054408, "private": true, "aggregate_link": "http://bit.ly/x9x7cXe",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Hardcore,Metal&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=599#play",
+        "client_id": "", "link": "http://bit.ly/x9x7cXd"}, {"archived": false, "user_ts":
+        1380054318, "title": "Example: Find Shows/Bands", "created_at": 1380054318,
+        "modified_at": 1380054408, "private": true, "aggregate_link": "http://bit.ly/xba8qNv",
+        "long_url": "http://example.com/bands?band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=Hardcore,Metal&band_search[genres_on]=true&band_search[latitude]=37.57409999999999&band_search[location]=San+Mateo,+CA,+USA&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[longitude]=-122.321&band_search[radius]=16&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=599&short_url=http://bit.ly/x9x7cXd#play",
+        "client_id": "", "link": "http://bit.ly/xba8qNu"}, {"archived": false, "user_ts":
+        1380054306, "title": "Example: Find Shows/Bands", "created_at": 1380054306,
+        "modified_at": 1380054396, "private": true, "aggregate_link": "http://bit.ly/xba8pt7",
+        "long_url": "http://example.com/s/d4b679d", "client_id": "", "link": "http://bit.ly/xba8pt6"},
+        {"archived": false, "user_ts": 1380053352, "title": "Example: Find Shows/Bands",
+        "created_at": 1380053352, "modified_at": 1380053442, "private": true, "aggregate_link":
+        "http://bit.ly/x9x5rsZ", "long_url": "http://example.com/s/5f5db1f",
+        "client_id": "", "link": "http://bit.ly/x9x5rsY"}, {"archived": false, "user_ts":
+        1380047188, "title": "Example: Find Shows/Bands", "created_at": 1380047188,
+        "modified_at": 1380047459, "private": true, "aggregate_link": "http://bit.ly/xalM2MV",
+        "long_url": "http://example.com/bands?band_search[date_window]=13&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=40.714353&band_search[location]=New+York,+NY,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-74.005973&band_search[radius]=4&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/xalM2MU"}, {"archived": false, "user_ts":
+        1380047188, "title": "Example: Find Shows/Bands", "created_at": 1380047188,
+        "modified_at": 1380047278, "private": true, "aggregate_link": "http://bit.ly/x6XwGyb",
+        "long_url": "http://example.com/bands?band_search[date_window]=13&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=false&band_search[latitude]=40.714353&band_search[location]=New+York,+NY,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-74.005973&band_search[radius]=4&band_search[search]=&band_search[search_on]=false&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/xalM2MU#play",
+        "client_id": "", "link": "http://bit.ly/x6XwGya"}, {"archived": false, "user_ts":
+        1380047156, "title": "Example: La Familia de Ukeleles", "created_at": 1380047156,
+        "modified_at": 1380047246, "private": true, "aggregate_link": "http://bit.ly/x6XwBKY",
+        "long_url": "http://example.com/la-familia-de-ukeleles?album_id=31923&short_url=http://bit.ly/xalLZ3A#play=31923&album=1",
+        "client_id": "", "link": "http://bit.ly/x6XwBKX"}, {"archived": false, "user_ts":
+        1380047156, "title": "Example: La Familia de Ukeleles", "created_at": 1380047156,
+        "modified_at": 1380047246, "private": true, "aggregate_link": "http://bit.ly/xalLZ3B",
+        "long_url": "http://example.com/la-familia-de-ukeleles?album_id=31923#play=31923&album=1",
+        "client_id": "", "link": "http://bit.ly/xalLZ3A"}, {"archived": false, "user_ts":
+        1380047026, "title": "Example: The Parson Red Heads", "created_at": 1380047026,
+        "modified_at": 1380047115, "private": true, "aggregate_link": "http://bit.ly/xalLC97",
+        "long_url": "http://example.com/the-parson-red-heads?album_id=4678#play=4678&album=1",
+        "client_id": "", "link": "http://bit.ly/xalLC96"}, {"archived": false, "user_ts":
+        1380047025, "title": "Example: The Parson Red Heads", "created_at": 1380047025,
+        "modified_at": 1380047116, "private": true, "aggregate_link": "http://bit.ly/x6Xwj6M",
+        "long_url": "http://example.com/the-parson-red-heads?album_id=4678&short_url=http://bit.ly/xalLC96#play=4678&album=1",
+        "client_id": "", "link": "http://bit.ly/x6Xwj6L"}, {"archived": false, "user_ts":
+        1380046955, "title": "Example: The Parson Red Heads", "created_at": 1380046955,
+        "modified_at": 1380047045, "private": true, "aggregate_link": "http://bit.ly/xalLt5B",
+        "long_url": "http://example.com/the-parson-red-heads?album_id=4678&track=1#play=4678&track=1",
+        "client_id": "", "link": "http://bit.ly/xalLt5A"}, {"archived": false, "user_ts":
+        1380046955, "title": "Example: The Parson Red Heads", "created_at": 1380046955,
+        "modified_at": 1380047045, "private": true, "aggregate_link": "http://bit.ly/x6Xwb7j",
+        "long_url": "http://example.com/the-parson-red-heads?album_id=4678&track=1&short_url=http://bit.ly/xalLt5A#play=4678&track=1",
+        "client_id": "", "link": "http://bit.ly/x6Xwb7i"}, {"archived": false, "user_ts":
+        1380046593, "title": "Example: La Familia de Ukeleles", "created_at": 1380046593,
+        "modified_at": 1380046684, "private": true, "aggregate_link": "http://bit.ly/x6Xvmvl",
+        "long_url": "http://example.com/la-familia-de-ukeleles?band=34980&short_url=http://bit.ly/xalKCBY#play=34980",
+        "client_id": "", "link": "http://bit.ly/x6Xvmvk"}, {"archived": false, "user_ts":
+        1380046593, "title": "Example: La Familia de Ukeleles", "created_at": 1380046593,
+        "modified_at": 1380046684, "private": true, "aggregate_link": "http://bit.ly/xalKCBZ",
+        "long_url": "http://example.com/la-familia-de-ukeleles?band=34980#play=34980",
+        "client_id": "", "link": "http://bit.ly/xalKCBY"}, {"archived": false, "user_ts":
+        1380046060, "title": "Example: Find Shows/Bands", "created_at": 1380046060,
+        "modified_at": 1380046150, "private": true, "aggregate_link": "http://bit.ly/xalJfmM",
+        "long_url": "http://example.com/bands?station_id=101864&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=64040#play",
+        "client_id": "", "link": "http://bit.ly/xalJfmL"}, {"archived": false, "user_ts":
+        1380046060, "title": "Example: Find Shows/Bands", "created_at": 1380046060,
+        "modified_at": 1380046150, "private": true, "aggregate_link": "http://bit.ly/x6XumHp",
+        "long_url": "http://example.com/bands?station_id=101864&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=64040&short_url=http://bit.ly/xalJfmL#play",
+        "client_id": "", "link": "http://bit.ly/x6XumHo"}, {"archived": false, "user_ts":
+        1380045223, "title": "Example: Find Shows/Bands", "created_at": 1380045223,
+        "modified_at": 1380045493, "private": true, "aggregate_link": "http://bit.ly/xalGG45",
+        "long_url": "http://example.com/bands?station_id=101077&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=34409#play",
+        "client_id": "", "link": "http://bit.ly/xalGG44"}, {"archived": false, "user_ts":
+        1380045223, "title": "Example: Find Shows/Bands", "created_at": 1380045223,
+        "modified_at": 1380045313, "private": true, "aggregate_link": "http://bit.ly/x6Xsw9H",
+        "long_url": "http://example.com/bands?station_id=101077&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=34409&short_url=http://bit.ly/xalGG44#play",
+        "client_id": "", "link": "http://bit.ly/x6Xsw9G"}, {"archived": false, "user_ts":
+        1380044057, "title": "Example: The Green", "created_at": 1380044057, "modified_at":
+        1380044148, "private": true, "aggregate_link": "http://bit.ly/xalCH7I", "long_url":
+        "http://example.com/the-green?album_id=13404&track=1&short_url=http://bit.ly/x6XpB0u#play=13404&track=1",
+        "client_id": "", "link": "http://bit.ly/xalCH7H"}, {"archived": false, "user_ts":
+        1380044056, "title": "Example: The Green", "created_at": 1380044056, "modified_at":
+        1380044147, "private": true, "aggregate_link": "http://bit.ly/x6XpB0v", "long_url":
+        "http://example.com/the-green?album_id=13404&track=1#play=13404&track=1",
+        "client_id": "", "link": "http://bit.ly/x6XpB0u"}, {"archived": false, "user_ts":
+        1380044045, "title": "Example: The Green", "created_at": 1380044045, "modified_at":
+        1380044135, "private": true, "aggregate_link": "http://bit.ly/x6XpxOl", "long_url":
+        "http://example.com/the-green?band=8162#play=8162", "client_id":
+        "", "link": "http://bit.ly/x6XpxOk"}, {"archived": false, "user_ts": 1380044045,
+        "title": "Example: The Green", "created_at": 1380044045, "modified_at":
+        1380044468, "private": true, "aggregate_link": "http://bit.ly/xalCGk2", "long_url":
+        "http://example.com/the-green?band=8162&short_url=http://bit.ly/x6XpxOk#play=8162",
+        "client_id": "", "link": "http://bit.ly/xalCGk1"}, {"archived": false, "user_ts":
+        1380043027, "title": "Example: Find Shows/Bands", "created_at": 1380043027,
+        "modified_at": 1380043297, "private": true, "aggregate_link": "http://bit.ly/xalzTY7",
+        "long_url": "http://example.com/bands?station_id=99561&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=33865#play",
+        "client_id": "", "link": "http://bit.ly/xalzTY6"}, {"keyword_link": "http://bit.ly/xmj2013radio",
+        "archived": false, "user_ts": 1380043027, "title": "Example: Find Shows/Bands",
+        "created_at": 1380043027, "modified_at": 1380046727, "private": true, "aggregate_link":
+        "http://bit.ly/x6XmhCx", "long_url": "http://example.com/bands?station_id=99561&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=33865&short_url=http://bit.ly/xalzTY6#play",
+        "client_id": "", "link": "http://bit.ly/x6XmhCw"}, {"archived": false, "user_ts":
+        1380040158, "title": "Example: Find Shows/Bands", "created_at": 1380040158,
+        "modified_at": 1380040699, "private": true, "aggregate_link": "http://bit.ly/x8nv2nY",
+        "long_url": "http://example.com/bands?station_id=101859&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=35.227087&band_search[location]=Charlotte,+NC,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-80.843127&band_search[radius]=2&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=#play",
+        "client_id": "", "link": "http://bit.ly/x8nv2nX"}, {"archived": false, "user_ts":
+        1380040158, "title": "Example: Find Shows/Bands", "created_at": 1380040158,
+        "modified_at": 1380040699, "private": true, "aggregate_link": "http://bit.ly/xb9Apgl",
+        "long_url": "http://example.com/bands?station_id=101859&band_search[date_window]=365&band_search[genre]=&band_search[genre_excluded]=&band_search[genres_on]=&band_search[latitude]=35.227087&band_search[location]=Charlotte,+NC,+US&band_search[location_on]=true&band_search[location_search_for]=shows&band_search[longitude]=-80.843127&band_search[radius]=2&band_search[search]=&band_search[search_on]=&band_search[tag]=&band_search[tag_excluded]=&band_search[venue_id]=&short_url=http://bit.ly/x8nv2nX#play",
+        "client_id": "", "link": "http://bit.ly/xb9Apgk"}, {"archived": false, "user_ts":
+        1380036161, "title": "Example: Find Shows/Bands", "created_at": 1380036161,
+        "modified_at": 1380036701, "private": true, "aggregate_link": "http://bit.ly/x8SSygQ",
+        "long_url": "http://example.com/bands?station_id=101831&band_search[date_window]=365&band_search[location_on]=true&band_search[location_search_for]=venues&band_search[venue_id]=102902#play",
+        "client_id": "", "link": "http://bit.ly/x8SSygP"}], "result_count": 300},
+        "status_txt": "OK"}'
+    http_version: 
+  recorded_at: Mon, 30 Sep 2013 19:17:15 GMT
+- request:
+    method: get
+    uri: https://api-ssl.bitly.com/v3/user/link_history?access_token=asdlkfjasd134i1ojfasldkrj234aslkdjfq3249&limit=100&offset=300
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 30 Sep 2013 19:19:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '93'
+      Etag:
+      - '"84de833f53450cc679bdaa0a1e84f878ed460543"'
+    body:
+      encoding: UTF-8
+      string: '{"status_code": 200, "data": {"link_history": [], "result_count": 300},
+        "status_txt": "OK"}'
+    http_version: 
+  recorded_at: Mon, 30 Sep 2013 19:19:36 GMT
+recorded_with: VCR 2.6.0

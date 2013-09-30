@@ -36,5 +36,13 @@ describe BitlyExporter::Exporter do
     it "contains the second link" do
       expect(subject.export).to include(a_link_with link_data_2["link"])
     end
+
+    it "accepts progress & max arguments" do
+      expect(subject.export(false, 100)).to include(a_link_with link_data_2["link"])
+    end
+
+    it "yields a block with the link" do
+      expect { |link| subject.export(&link) }.to yield_successive_args(BitlyExporter::Link, BitlyExporter::Link)
+    end
   end
 end
