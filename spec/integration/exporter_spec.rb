@@ -17,6 +17,18 @@ describe BitlyExporter::Exporter do
     it "should retrieve the maximum" do
       expect(subject).to have(200).items
     end
+
+    context "and a block" do
+      subject do
+        BitlyExporter::Exporter.new(user)
+      end
+
+      it "should yield 200 times" do
+        VCR.use_cassette "with maximum" do
+          expect { |link| subject.export(false, 200, &link) }.to yield_control.exactly(200).times
+        end
+      end
+    end
   end
 
   context "no maximum" do
