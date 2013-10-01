@@ -1,6 +1,7 @@
 module BitlyExporter
   class Link
-    attr_reader  :link, :long_url, :aggregate_link, :title, :private, :created_at, :modified_at
+    attr_reader  :link, :long_url, :aggregate_link, :archived, :title, :private, :client_id,
+      :created_at, :modified_at, :user_ts
     alias_method :short_link, :link
     alias_method :global_bitly_identifier, :aggregate_link
 

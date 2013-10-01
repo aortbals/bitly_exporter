@@ -11,6 +11,9 @@ describe BitlyExporter::Link do
   it { expect(subject.aggregate_link).to eq(link_data["aggregate_link"]) }
   it { expect(subject.title).to          eq(link_data["title"]) }
   it { expect(subject.private).to        eq(link_data["private"]) }
+  it { expect(subject.archived).to       eq(link_data["archived"]) }
+  it { expect(subject.client_id).to      eq(link_data["client_id"]) }
+  it { expect(subject.user_ts).to        eq(Time.at(link_data["user_ts"])) }
   it { expect(subject.created_at).to     eq(Time.at(link_data["created_at"])) }
   it { expect(subject.modified_at).to    eq(Time.at(link_data["modified_at"])) }
 
