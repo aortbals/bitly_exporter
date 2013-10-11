@@ -21,7 +21,7 @@ module BitlyExporter
         sleep(0.5) # Let's not bull rush the API
         print "#{offset} links retrieved...\r" if progress
       end while links.count > 0 && offset < max
-      print "Finished. #{results.count} links retrieved.\n" if progress
+      print "Finished. #{results.count} links retrieved.\n\n" if progress
       results
     end
   end
