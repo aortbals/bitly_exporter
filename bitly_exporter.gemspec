@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Export a user's links from Bitly.}
   gem.summary       = %q{Supports Bitly API V3}
   gem.homepage      = "https://github.com/aortbals/bitly_exporter"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
