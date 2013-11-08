@@ -1,7 +1,7 @@
 Bitly Exporter
 ==============
 
-[![Code Climate](https://codeclimate.com/github/aortbals/bitly_exporter.png)](https://codeclimate.com/github/aortbals/bitly_exporter) [![Coverage Status](https://coveralls.io/repos/aortbals/bitly_exporter/badge.png?branch=master)](https://coveralls.io/r/aortbals/bitly_exporter?branch=master)
+[![Code Climate](https://codeclimate.com/github/aortbals/bitly_exporter.png)](https://codeclimate.com/github/aortbals/bitly_exporter) [![Build Status](https://travis-ci.org/aortbals/bitly_exporter.png?branch=master)](https://travis-ci.org/aortbals/bitly_exporter) [![Coverage Status](https://coveralls.io/repos/aortbals/bitly_exporter/badge.png?branch=master)](https://coveralls.io/r/aortbals/bitly_exporter?branch=master)
 
 This gem exports a user's links from the Bitly V3 API. It requires a generic OAuth access token that you can [obtain from Bitly](https://bitly.com/a/oauth_apps). It makes use of the [User Link History API](http://dev.bitly.com/user_info.html#v3_user_link_history).
 
